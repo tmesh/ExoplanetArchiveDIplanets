@@ -22,7 +22,7 @@ impa                  160.30 | impaerr1           0.72 | impaerr2           -0.7
 imdist                 29.78 | imdisterr1         0.15 | imdisterr2         -0.15 | imdistlim        0 |\ # "imdist", distance to star [pc]
 imtelescope	             VLT |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument          SPHERE |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	        2015-09-28 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imdateobs	        2016-12-13 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster      Beta Pictoris |\ # "imcluster", name of associated cluster
 imdisk 		                 1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		               1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
