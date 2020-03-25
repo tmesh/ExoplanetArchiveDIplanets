@@ -1,1 +1,51 @@
+# USER:            ntanon
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        51Erib_DeRosa2015_2014-12-18.dat
+# DATE:            2020-03-24
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for planet
+imreflink     2015ApJ...814L...3D |\ # "imreflink, ADS bibcode
+imrefid			                TBD   |\ # refid for paper
+#
+# Default Columns
+#
+plntname                51 Eri b |\ # planet name
+#
+# Imaging Columns
+#
+imangsep           0.4498 | imangseperr1    0.0067 | imangseperr2     -0.0067 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+impa                171.0 | impaerr1           0.9 | impaerr2            -0.9 | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imtelescope	 Gemini South |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument          GPI |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	     2014-12-18 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcorona		            1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			            1 |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			                3 |\ # "ns", number of stars constituting the host system
+ra                    TBD |\ # RA [decimal]
+dec                   TBD |\ # Dec [decimal]
+glon                  TBD |\ # "l" [decimal]
+glat                  TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+#
+# Stellar Parameter Columns
+#
+immass               1.75 | immasserr1            null | immasserr2              null | immasslim        0 |\ # "immass", stellar host [solar mass]
+#
+# Model Columns
+#
+immodel		          	 Macintosh et al. (2015), Wang et al. 2015, Soummer et al. 2012 |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+imnotes                  H filter was used |\ # "imnotes"
+#
+cntr                  TBD |  # counter
 
