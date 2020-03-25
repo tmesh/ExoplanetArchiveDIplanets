@@ -1,6 +1,6 @@
 # USER:            tanon
 # DESCRIPTION:     Direct Imaging Table Update
-# FILENAME:        51Erib_Maire2019_2015-09-28.dat
+# FILENAME:        51Erib_Maire2019_2015-09-28_K1.dat
 # DATE:            2020-03-16
 #                                    
 # Addition of direct imaging values
@@ -50,6 +50,6 @@ immodeldef		                             																		 1 |\ # "immodeldef" 
 #
 # Internal Counter
 #
-imnotes                                       																												 |\ # "imnotes"
+imnotes                                       														 K1 filter result shown here |\ # "imnotes"
 #
 cntr                                      																												 TBD |  # counter
