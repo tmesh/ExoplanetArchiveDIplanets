@@ -36,7 +36,6 @@ glat                  TBD |\ # "b" [decimal]
 #
 # Stellar Parameter Columns
 #
-immass               1.75 | immasserr1            null | immasserr2              null | immasslim        0 |\ # "immass", stellar host [solar mass]
 #
 # Model Columns
 #
