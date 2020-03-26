@@ -45,8 +45,7 @@ immass                  1.75 | immasserr1        0.05 | immasserr2         -0.05
 #
 # Model Columns
 #
-immodel		                     Galicher et al (2018), Baraffe et al (2015, 2003) |\ # "immodel", description of model ##Reference that the model is drawn from.
-immodeldef		                             																		 0 |\ # "immodeldef" (1=yes, 0=no)
+immodeldef		             0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
