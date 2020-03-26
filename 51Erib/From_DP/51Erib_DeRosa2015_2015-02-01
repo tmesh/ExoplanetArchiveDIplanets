@@ -21,7 +21,7 @@ imtelescope	     Keck: II |\ # "imtelescope", Telescope used in observations ##a
 iminstrument        NIRC2 |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	     2015-02-01 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcorona		            1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
-imifu 			            1 |\ # "imifu", IFU used (1=yes, 0=no)
+imifu 			            0 |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
 #
