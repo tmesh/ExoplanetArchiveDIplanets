@@ -12,12 +12,14 @@ imrefid			                TBD   |\ # refid for paper
 # Default Columns
 #
 plntname                51 Eri b |\ # planet name
+ra_str               04:37:36.13 |\ # RA [sexagesimal]
+dec_str              -02:28:24.8 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
 imangsep           0.4615 | imangseperr1    0.0239 | imangseperr2     -0.0239 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
 impa                170.4 | impaerr1           3.0 | impaerr2            -3.0 | impalim          0 |\  # "impa", star-planet position angle [deg] 
-imtelescope	     Keck: II |\ # "imtelescope", Telescope used in observations ##added this
+imtelescope	      Keck:II |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument        NIRC2 |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	     2015-02-01 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcorona		            1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
