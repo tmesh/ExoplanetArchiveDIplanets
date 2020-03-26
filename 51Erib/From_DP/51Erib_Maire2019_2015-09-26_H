@@ -12,8 +12,8 @@ imrefid			                TBD   |\ # refid for paper
 # Default Columns
 #
 plntname                51 Eri b |\ # planet name
-ra_str              04h37m36.13s |\ # RA [sexagesimal]
-dec_str             -02d28m24.8s |\ # Dec [sexagesimal]
+ra_str               04:37:36.13 |\ # RA [sexagesimal]
+dec_str              -02:28:24.8 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 # 
@@ -46,7 +46,7 @@ immass                  1.75 | immasserr1        0.05 | immasserr2         -0.05
 # Model Columns
 #
 immodel		                     Galicher et al (2018), Baraffe et al (2015, 2003) |\ # "immodel", description of model ##Reference that the model is drawn from.
-immodeldef		                             																		 1 |\ # "immodeldef" (1=yes, 0=no)
+immodeldef		                             																		 0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
