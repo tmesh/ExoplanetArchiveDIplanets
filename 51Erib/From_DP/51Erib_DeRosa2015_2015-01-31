@@ -41,8 +41,7 @@ glat                  TBD |\ # "b" [decimal]
 #
 # Model Columns
 #
-immodel		          	 Macintosh et al. (2015), Wang et al. 2015, Soummer et al. 2012 |\ # "immodel", description of model ##Reference that the model is drawn from.
-immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
+immodeldef		             0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
