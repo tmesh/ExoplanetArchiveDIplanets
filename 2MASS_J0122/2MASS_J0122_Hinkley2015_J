@@ -1,19 +1,19 @@
 # USER:            ntanon
 # DESCRIPTION:     Direct Imaging Table Update
-# FILENAME:        2MASS_J0122_Hinkley2015.dat
+# FILENAME:        2MASS_J0122_Hinkley2015_J.dat
 # DATE:            2020-03-26
 #                                    
 # Addition of direct imaging values
 #                                    
 objectid                    TBD   |\ # objectID for planet
-imreflink   2013ApJ...763L..32C   |\ # "imreflink, ADS bibcode
+imreflink   2015ApJ...805L..10H   |\ # "imreflink, ADS bibcode
 imrefid			                TBD   |\ # refid for paper
 #
 # Default Columns
 #
-plntname                         |\ # planet name
-ra_str                           |\ # RA [sexagesimal]
-dec_str                          |\ # Dec [sexagesimal]
+plntname    2MASS J01225093-2439505 b |\ # planet name
+ra_str                    01:22:50.94 |\ # RA [sexagesimal]
+dec_str                   -24:39:50.7 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
@@ -24,13 +24,13 @@ imdeltlpmag               | imdeltlpmagerr	       | imdeltlpmaglim              
 imangsep                  | imangseperr1           | imangseperr2             | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                     | imseperr1              | imseperr2                | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
 impa                      | impaerr1               | impaerr2                 | impalim          0 |\  # "impa", star-planet position angle [deg] 
-imdist                    | imdisterr1             | imdisterr2               | imdistlim        0 |\  # "imdist", distance to star [pc]
-imtelescope	              |\ # "imtelescope", Telescope used in observations ##added this
-iminstrument              |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	                |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imdist                 36 | imdisterr1           4 | imdisterr2            -4 | imdistlim        0 |\  # "imdist", distance to star [pc]
+imtelescope	  VLT:Melipal |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument       SPHERE |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	     2014-12-06 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	                |\ # "imcluster", name of associated cluster
 imdisk 		                |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
-imcorona		              |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imcorona		            1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
 imifu 			              |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
@@ -61,15 +61,15 @@ image		                  | imageerr1	             | imageerr2	              | im
 #
 # Model Columns
 #
-implstype		              |\ # "implstype", planet spectral type
+implstype		         L4±1 |\ # "implstype", planet spectral type
 implmass                  | implmasserr1            | implmasserr2            | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-impltemp                  | impltemperr1            | impltemperr2            | impltemplim      0 |\ # "impltemp", planet temp [K]
+impltemp             1600 | impltemperr1        100 | impltemperr2       -100 | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                | implradiuserr1          | implradiuserr2          | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel		          	    |\ # "immodel", description of model ##Reference that the model is drawn from.
-immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
+immodel		             BT-Settl, Allard et al. 2011 |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		                                    0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes                   |\ # "imnotes"
+imnotes                 J-band planet spectral type |\ # "imnotes"
 #
 cntr                  TBD |  # counter
