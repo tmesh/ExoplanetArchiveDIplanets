@@ -1,4 +1,4 @@
-# USER:            ntanon
+# USER:            tanon
 # DESCRIPTION:     Direct Imaging Table Update
 # FILENAME:        51Erib_DeRosa2015_2015-01-31.dat
 # DATE:            2020-03-24
@@ -22,6 +22,7 @@ impa                170.5 | impaerr1           0.9 | impaerr2            -0.9 | 
 imtelescope	 Gemini:South |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument          GPI |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	     2015-01-31 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		            1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
 imifu 			            1 |\ # "imifu", IFU used (1=yes, 0=no)
 #
