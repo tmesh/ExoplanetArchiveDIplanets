@@ -49,6 +49,6 @@ immodeldef		             0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes                                       																												 |\ # "imnotes"
+imnotes                             		H2 filter used |\ # "imnotes"
 #
-cntr                                      																												 TBD |  # counter
+cntr                                               TBD |  # counter
