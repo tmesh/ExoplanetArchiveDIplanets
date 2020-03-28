@@ -1,6 +1,6 @@
 # USER:            tanon
 # DESCRIPTION:     Direct Imaging Table Update
-# FILENAME:        51Erib_Maire2019_2018-09-20.dat
+# FILENAME:        51Erib_Maire2019_2018-09-18.dat
 # DATE:            2020-03-23
 #                                    
 # Addition of direct imaging values
@@ -22,7 +22,7 @@ impa                  150.23 | impaerr1           0.55 | impaerr2           -0.5
 imdist                 29.78 | imdisterr1         0.15 | imdisterr2         -0.15 | imdistlim        0 |\ # "imdist", distance to star [pc]
 imtelescope	    VLT: Melipal |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument          SPHERE |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	        2018-09-20 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imdateobs	        2018-09-18 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster            bet Pic |\ # "imcluster", name of associated cluster
 imdisk 		                 1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		               1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
