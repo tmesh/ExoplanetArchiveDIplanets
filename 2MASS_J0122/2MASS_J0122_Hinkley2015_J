@@ -1,4 +1,4 @@
-# USER:            ntanon
+# USER:            tanon
 # DESCRIPTION:     Direct Imaging Table Update
 # FILENAME:        2MASS_J0122_Hinkley2015_J.dat
 # DATE:            2020-03-26
@@ -21,6 +21,7 @@ imdist                 36 | imdisterr1           4 | imdisterr2            -4 | 
 imtelescope	  VLT:Melipal |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument       SPHERE |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	     2014-12-06 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		            1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
 #
 # Astrometry Columns
@@ -32,6 +33,7 @@ glon                  TBD |\ # "l" [decimal]
 glat                  TBD |\ # "b" [decimal]
 #
 # Photometry Columns
+#
 #
 # Stellar Parameter Columns
 #
