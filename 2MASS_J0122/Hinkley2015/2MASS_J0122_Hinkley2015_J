@@ -48,6 +48,6 @@ immodeldef		                                    0 |\ # "immodeldef" (1=yes, 0=no
 #
 # Internal Counter
 #
-imnotes                 J-band planet spectral type |\ # "imnotes"
+imnotes                 J-band planet spectral type and YJ-band radius |\ # "imnotes"
 #
 cntr                  TBD |  # counter
