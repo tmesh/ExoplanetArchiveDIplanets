@@ -1,0 +1,52 @@
+# USER:            tanon
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        2MASS_J0122_Hinkley2015_H.dat
+# DATE:            2020-03-30
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for planet
+imreflink   2015ApJ...805L..10H   |\ # "imreflink, ADS bibcode
+imrefid			                TBD   |\ # refid for paper
+#
+# Default Columns
+#
+plntname    2MASS J01225093-2439505 b |\ # planet name
+ra_str                    01:22:50.94 |\ # RA [sexagesimal]
+dec_str                   -24:39:50.7 |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imdist                 36 | imdisterr1           4 | imdisterr2            -4 | imdistlim        0 |\  # "imdist", distance to star [pc]
+imtelescope	  VLT:Melipal |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument       SPHERE |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	     2014-12-06 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		            1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			                1 |\ # "ns", number of stars constituting the host system
+ra                    TBD |\ # RA [decimal]
+dec                   TBD |\ # Dec [decimal]
+glon                  TBD |\ # "l" [decimal]
+glat                  TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+#
+# Stellar Parameter Columns
+#
+#
+# Model Columns
+#
+impltemp             1600 | impltemperr1        100 | impltemperr2       -100 | impltemplim      0 |\ # "impltemp", planet temp [K]
+implradius            0.8 | implradiuserr1     null | implradiuserr2     null | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
+immodel		             BT-Settl, Allard et al. 2011 |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		                                    0 |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+imnotes                 H-band planet spectral type |\ # "imnotes"
+#
+cntr                  TBD |  # counter
