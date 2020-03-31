@@ -42,7 +42,7 @@ glat                  TBD |\ # "b" [decimal]
 #
 implstype		         L4±1 |\ # "implstype", planet spectral type
 impltemp             1600 | impltemperr1        100 | impltemperr2       -100 | impltemplim      0 |\ # "impltemp", planet temp [K]
-implradius            1.0 | implradiuserr1     null | implradiuserr2     null | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
+implradius            1.2 | implradiuserr1     null | implradiuserr2     null | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
 immodel		             BT-Settl, Allard et al. 2011 |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		                                    0 |\ # "immodeldef" (1=yes, 0=no)
 #
