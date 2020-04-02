@@ -12,8 +12,8 @@ imrefid			                TBD   |\ # refid for paper
 # Default Columns
 #
 plntname        TYC 8998-760-1 b |\ # planet name
-ra_str                           |\ # RA [sexagesimal]
-dec_str                          |\ # Dec [sexagesimal]
+ra_str               13:25:12.13 |\ # RA [sexagesimal]
+dec_str             -64:56:20.69 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
@@ -21,21 +21,21 @@ imdeltjmag                | imdeltjmagerr	         | imdeltjmaglim              
 imdelthmag                | imdelthmagerr	         | imdelthmaglim                               0 |\			# "imdelthmag", planet-host magnitude difference [mag]
 imdeltkmag                | imdeltkmagerr	         | imdeltkmaglim                               0 |\			# "imdeltkmag", planet-host magnitude difference [mag]
 imdeltlpmag               | imdeltlpmagerr	       | imdeltlpmaglim                              0 |\			# "imdeltlpmag", planet-host magnitude difference [mag]
-imangsep                  | imangseperr1           | imangseperr2             | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
-imsep                     | imseperr1              | imseperr2                | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+imangsep             1.71 | imangseperr1      null | imangseperr2        null | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                 162 | imseperr1         null | imseperr2           null | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
 impa                      | impaerr1               | impaerr2                 | impalim          0 |\  # "impa", star-planet position angle [deg] 
-imdist                    | imdisterr1             | imdisterr2               | imdistlim        0 |\  # "imdist", distance to star [pc]
-imtelescope	              |\ # "imtelescope", Telescope used in observations ##added this
-iminstrument              |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	                |\ # "imdateobs", [YYYY-MM-DD] ##added this
-imcluster	                |\ # "imcluster", name of associated cluster
-imdisk 		                |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
-imcorona		              |\ # "imcorona", Coronagraph used (1=yes, 0=no)
-imifu 			              |\ # "imifu", IFU used (1=yes, 0=no)
+imdist               94.6 | imdisterr1         0.3 | imdisterr2          -0.3 | imdistlim        0 |\  # "imdist", distance to star [pc]
+imtelescope	               VLT:Melipal, VLT:Kueyen |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument                 SPHERE, UT2 X-Shooter |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	     2017-07-05 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	      Sco OB2/Lower Centaurus-Crux (LCC) |\ # "imcluster", name of associated cluster
+imdisk 		              0 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		            1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			            1 |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
 #
-ns			                  |\ # "ns", number of stars constituting the host system
+ns			                2 |\ # "ns", number of stars constituting the host system
 ra                    TBD |\ # RA [decimal]
 dec                   TBD |\ # Dec [decimal]
 glon                  TBD |\ # "l" [decimal]
@@ -54,22 +54,21 @@ implnlpmag                | implnlpmagerr          | implnlpmaglim            |\
 #
 # Stellar Parameter Columns
 #
-imstype			              |\ # "imstype", stellar host spectral type
-immass                    | immasserr1             | immasserr2               | immasslim        0 |\ # "immass", stellar host [solar mass]
-imlum                     | imlumerr1              | imlumerr2                | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
-image		                  | imageerr1	             | imageerr2	              | imagelim	       0 |\ # "image", stellar age [My]
+imstype			         K3IV |\ # "imstype", stellar host spectral type
+immass               1.00 | immasserr1        0.02 | immasserr2         -0.02 | immasslim        0 |\ # "immass", stellar host [solar mass]
+image		             16.7 | imageerr1	         1.4 | imageerr2	         -1.4 | imagelim	       0 |\ # "image", stellar age [My]
 #
 # Model Columns
 #
 implstype		              |\ # "implstype", planet spectral type
-implmass                  | implmasserr1            | implmasserr2            | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+implmass               14 | implmasserr1          3 | implmasserr2         -3 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                  | impltemperr1            | impltemperr2            | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                | implradiuserr1          | implradiuserr2          | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel		          	    |\ # "immodel", description of model ##Reference that the model is drawn from.
-immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
+immodel		B.     T-Settl and AMES-dusty isochrones, |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		          1 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes                   |\ # "imnotes"
+imnotes                  J filter used |\ # "imnotes"
 #
 cntr                  TBD |  # counter
