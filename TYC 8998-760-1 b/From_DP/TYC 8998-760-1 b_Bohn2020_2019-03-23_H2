@@ -1,6 +1,6 @@
 # USER:            tanon
 # DESCRIPTION:     Direct Imaging Table Update
-# FILENAME:        TYC 8998-760-1 b_Bohn2020_2019-03-23_H2.dat
+# FILENAME:        TYC 8998-760-1 b_Bohn2020_2019-03-23_H2_J2.dat
 # DATE:            2020-04-02
 #                                    
 # Addition of direct imaging values
@@ -17,6 +17,7 @@ dec_str             -64:56:20.69 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
+imdeltjmag           7.14 | imdeltjmagerr	    0.08 | imdeltjmaglim                               0 |\	 # "imdeltjmag", planet-host magnitude difference [mag]
 imdelthmag           6.65 | imdelthmagerr	    0.08 | imdelthmaglim                               0 |\	 # "imdelthmag", planet-host magnitude difference [mag]
 imangsep            1.711 | imangseperr1     0.003 | imangseperr2      -0.003 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                 162 | imseperr1         null | imseperr2           null | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
@@ -40,7 +41,8 @@ glat                  TBD |\ # "b" [decimal]
 #
 # Photometry Columns
 #
-imhmag               8.46 | imhmagerr         null | imhmaglim                                   0 |\ # "imhmag", stellar magnitude H-band [mag]
+imjmag               9.13 | imjmagerr             null | imjmaglim                |\ # "imjmag", stellar magnitude J-band [mag]
+imhmag               8.46 | imhmagerr             null | imhmaglim                |\ # "imhmag", stellar magnitude H-band [mag]
 #
 # Stellar Parameter Columns
 #
@@ -60,6 +62,6 @@ immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes                  H2 filter used |\ # "imnotes"
+imnotes                  H2 and J2 filter used |\ # "imnotes"
 #
 cntr                  TBD |  # counter
