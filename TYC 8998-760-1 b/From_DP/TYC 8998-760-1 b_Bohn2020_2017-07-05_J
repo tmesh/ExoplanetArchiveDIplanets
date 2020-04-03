@@ -18,8 +18,8 @@ dec_str             -64:56:20.69 |\ # Dec [sexagesimal]
 # Imaging Columns
 #
 imdeltjmag           6.71 | imdeltjmagerr	    0.38 | imdeltjmaglim                               0 |\	 # "imdeltjmag", planet-host magnitude difference [mag]
-imangsep             1.71 | imangseperr1      null | imangseperr2        null | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                 162 | imseperr1         null | imseperr2           null | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+imdist               94.6 | imdisterr1         0.3 | imdisterr2          -0.3 | imdistlim        0 |\  # "imdist", distance to star [pc]
 imtelescope	               VLT:Melipal, VLT:Kueyen |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument                 SPHERE, UT2 X-Shooter |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	     2017-07-05 |\ # "imdateobs", [YYYY-MM-DD] ##added this
