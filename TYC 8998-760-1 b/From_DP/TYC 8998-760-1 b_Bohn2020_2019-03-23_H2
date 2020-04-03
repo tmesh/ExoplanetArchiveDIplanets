@@ -22,8 +22,8 @@ imangsep            1.711 | imangseperr1     0.003 | imangseperr2      -0.003 | 
 imsep                 162 | imseperr1         null | imseperr2           null | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
 impa                212.0 | impaerr1           0.1 | impaerr2            -0.1 | impalim          0 |\  # "impa", star-planet position angle [deg]
 imdist               94.6 | imdisterr1         0.3 | imdisterr2          -0.3 | imdistlim        0 |\  # "imdist", distance to star [pc]
-imtelescope	               VLT:Melipal, VLT:Kueyen |\ # "imtelescope", Telescope used in observations ##added this
-iminstrument                 SPHERE, UT2 X-Shooter |\ # "iminstrument", Instrument used in observations ##added this
+imtelescope	  VLT:Melipal |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument       SPHERE |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	     2019-03-23 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	      Sco OB2/Lower Centaurus-Crux (LCC) |\ # "imcluster", name of associated cluster
 imdisk 		              0 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
@@ -44,7 +44,7 @@ imhmag               8.46 | imhmagerr         null | imhmaglim                  
 #
 # Stellar Parameter Columns
 #
-imstype			         K3IV |\ # "imstype", stellar host spectral type
+imstype			        K3 IV |\ # "imstype", stellar host spectral type
 immass               1.00 | immasserr1        0.02 | immasserr2         -0.02 | immasslim        0 |\ # "immass", stellar host [solar mass]
 imlum               0.458 | imlumerr        0.017  | imlumerr2         -0.017 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
 image		             16.7 | imageerr1	         1.4 | imageerr2	         -1.4 | imagelim	       0 |\ # "image", stellar age [My]
@@ -55,8 +55,8 @@ implstype		           L0 |\ # "implstype", planet spectral type
 implmass               14 | implmasserr1          3 | implmasserr2         -3 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp             1727 | impltemperr1        172 | impltemperr2       -127 | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius            3.0 | implradiuserr1      0.2 | implradiuserr2     -0.7 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel		B.T-Settl (Allard et al. 2012) and AMES-dusty isochrones (Allard et al. 2001; Chabrier et al. 2000) |\ # "immodel", description of model ##Reference that the model is drawn from.
-immodeldef		          1 |\ # "immodeldef" (1=yes, 0=no)
+immodel		BT-Settl (Allard et al. 2012), AMES/DUSTY (Allard et al. 2001; Chabrier et al. 2000) |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
