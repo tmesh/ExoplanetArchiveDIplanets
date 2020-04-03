@@ -32,7 +32,7 @@ imifu 			            0 |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
 #
-ns			                2 |\ # "ns", number of stars constituting the host system
+ns			                1 |\ # "ns", number of stars constituting the host system
 ra                    TBD |\ # RA [decimal]
 dec                   TBD |\ # Dec [decimal]
 glon                  TBD |\ # "l" [decimal]
@@ -46,7 +46,7 @@ imkmag               8.28 | imkmagerr         null | imkmaglim                |\
 #
 imstype			         K3IV |\ # "imstype", stellar host spectral type
 immass               1.00 | immasserr1        0.02 | immasserr2         -0.02 | immasslim        0 |\ # "immass", stellar host [solar mass]
-imlum                     | imlumerr1              | imlumerr2                | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
+imlum               0.458 | imlumerr         0.017 | imlumerr2         -0.017 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
 image		             16.7 | imageerr1	         1.4 | imageerr2	         -1.4 | imagelim	       0 |\ # "image", stellar age [My]
 #
 # Model Columns
