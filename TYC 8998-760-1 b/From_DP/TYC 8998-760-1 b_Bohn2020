@@ -51,11 +51,11 @@ implstype		           L0 |\ # "implstype", planet spectral type
 implmass               14 | implmasserr1          3 | implmasserr2         -3 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp             1727 | impltemperr1        172 | impltemperr2       -127 | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius            3.0 | implradiuserr1      0.2 | implradiuserr2     -0.7 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel		B.T-Settl (Allard et al. 2012) and AMES-dusty isochrones (Allard et al. 2001; Chabrier et al. 2000) |\ # "immodel", description of model ##Reference that the model is drawn from.
-immodeldef		          1 |\ # "immodeldef" (1=yes, 0=no)
+immodel		BT-Settl (Allard et al. 2012), AMES/DUSTY (Allard et al. 2001; Chabrier et al. 2000) |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes       Y to M band |\ # "imnotes"
+imnotes                   |\ # "imnotes"
 #
 cntr                  TBD |  # counter
