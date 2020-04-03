@@ -20,8 +20,9 @@ dec_str             -64:56:20.69 |\ # Dec [sexagesimal]
 imangsep              1.7 | imangseperr1      null | imangseperr2        null | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                 162 | imseperr1         null | imseperr2           null | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
 imdist               94.6 | imdisterr1         0.3 | imdisterr2          -0.3 | imdistlim        0 |\  # "imdist", distance to star [pc]
-imtelescope	                  VLT:Antu |\ # "imtelescope", Telescope used in observations ##added this
-iminstrument                   NACO |\ # "iminstrument", Instrument used in observations ##added this
+imtelescope	                 VLT:Antu, VLT:Melipal |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument                          NACO, SPHERE |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	                     2017-07-05, 2019-03-17, 2019-03-23, 2019-05-18 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	      Sco OB2/Lower Centaurus-Crux (LCC) |\ # "imcluster", name of associated cluster
 imdisk 		              0 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		            0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
@@ -40,7 +41,7 @@ glat                  TBD |\ # "b" [decimal]
 #
 # Stellar Parameter Columns
 #
-imstype			         K3 IV |\ # "imstype", stellar host spectral type
+imstype			        K3 IV |\ # "imstype", stellar host spectral type
 immass               1.00 | immasserr1        0.02 | immasserr2         -0.02 | immasslim        0 |\ # "immass", stellar host [solar mass]
 imlum               0.458 | imlumerr         0.017 | imlumerr2         -0.017 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
 image		             16.7 | imageerr1	         1.4 | imageerr2	         -1.4 | imagelim	       0 |\ # "image", stellar age [My]
@@ -52,10 +53,10 @@ implmass               14 | implmasserr1          3 | implmasserr2         -3 | 
 impltemp             1727 | impltemperr1        172 | impltemperr2       -127 | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius            3.0 | implradiuserr1      0.2 | implradiuserr2     -0.7 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
 immodel		BT-Settl (Allard et al. 2012), AMES/DUSTY (Allard et al. 2001; Chabrier et al. 2000) |\ # "immodel", description of model ##Reference that the model is drawn from.
-immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
+immodeldef		          1 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes                   |\ # "imnotes"
+imnotes        Projected separation star-planet and Position angle star-planet are the average across the J, H, Ks, and L' band |\ # "imnotes"
 #
 cntr                  TBD |  # counter
