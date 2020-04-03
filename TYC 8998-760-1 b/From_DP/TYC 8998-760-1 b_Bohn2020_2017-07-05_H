@@ -28,7 +28,7 @@ imdateobs	     2017-07-05 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	      Sco OB2/Lower Centaurus-Crux (LCC) |\ # "imcluster", name of associated cluster
 imdisk 		              0 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		            1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
-imifu 			            1 |\ # "imifu", IFU used (1=yes, 0=no)
+imifu 			            0 |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
 #
