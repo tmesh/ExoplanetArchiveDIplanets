@@ -49,6 +49,7 @@ imlpmag                    4.32 | imkmagerr       0.05 | imkmaglim        0 |\ #
 implnjmag                 15.86 | implnjmagerr    0.21 | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
 implnhmag                 14.95 | implnhmagerr    0.13 | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
 implnkmag                 14.32 | implnkmagerr    0.09 | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
+implnlpmag                13.12 | implnlpmagerr    0.1 | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
 #
 # Stellar Parameter Columns
 #
