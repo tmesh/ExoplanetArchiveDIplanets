@@ -24,17 +24,17 @@ imangsep                      1.029 | imangseperr1         0.005 | imangseperr2 
 imsep                            61 | imseperr1             50 | imseperr2            -20 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
 impa                           55.3 | impaerr1             0.3 | impaerr2            -0.3 | impalim          0 |\  # "impa", star-planet position angle [deg] 
 imdist                         51.6 | imdisterr1           0.5 | imdisterr2          -0.5 | imdistlim        0 |\  # "imdist", distance to star [pc]
-imtelescope	             Perkins telescope at Lowell Observatory  |\ # "imtelescope", Telescope used in observations ##added this
-iminstrument             MIMIR |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	               2012-10-30 |\ # "imdateobs", [YYYY-MM-DD] ##added this
-imcluster	               Columba  |\ # "imcluster", name of associated cluster
-imdisk 		                0 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
-imcorona		      1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
-imifu 			      0 |\ # "imifu", IFU used (1=yes, 0=no)
+imtelescope	             Perkins |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument               MIMIR |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	            2012-10-30 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	              Columba  |\ # "imcluster", name of associated cluster
+imdisk 		                     0 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		        	         0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			   	     	     	   0 |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
 #
-ns			      1 |\ # "ns", number of stars constituting the host system
+ns			                      1 |\ # "ns", number of stars constituting the host system
 ra                          TBD |\ # RA [decimal]
 dec                         TBD |\ # Dec [decimal]
 glon                        TBD |\ # "l" [decimal]
@@ -51,20 +51,22 @@ implnkmag                 14.32 | implnkmagerr    0.09 | implnkmaglim     0 |\ #
 #
 # Stellar Parameter Columns
 #
-imstype			    B9IVn |\ # "imstype", stellar host spectral type
+imstype			     B9 IVn |\ # "imstype", stellar host spectral type
 immass                     2.6 | immasserr1          0.2 | immasserr2        -0.2 | immasslim        0 |\ # "immass", stellar host [solar mass]
-imlum                      1.83 | imlumerr1           0.04 | imlumerr2         -0.04 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
+imlum                     67.6 | imlumerr1              7 | imlumerr2             6 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
 image		            30  | imageerr1	      120 | imageerr2	     -10 | imagelim	  0 |\ # "image", stellar age [My]
 #
 # Model Columns
 #
+implstype		               M9-L3 |\ # "implstype", planet spectral type
+implmass                      13 | implmasserr1       23 | implmasserr2      -1 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                    1800 | impltemperr1          | impltemperr2         | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                  1.65 | implradiuserr1        | implradiuserr2       | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel		          BT-Dusty 2012 |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodel		          BT/Dusty 2012 |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes                |\ # "imnotes"
+imnotes               L' magnitude |\ # "imnotes"
 #
 cntr                        TBD |  # counter
