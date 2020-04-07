@@ -1,6 +1,6 @@
 # USER:            mheideman
 # DESCRIPTION:     Direct Imaging Table Update
-# FILENAME:        kapandb_bonnefoyetal2014.dat
+# FILENAME:        Bonnefoyetal2014_Keck.dat
 # DATE:            2019-07-31
 #                                    
 # Addition of direct imaging values
@@ -22,7 +22,7 @@ imangsep                      1.029 | imangseperr1       0.005 | imangseperr2   
 imsep                            61 | imseperr1             50 | imseperr2            -20 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
 impa                           55.3 | impaerr1             0.3 | impaerr2            -0.3 | impalim          0 |\  # "impa", star-planet position angle [deg] 
 imdist                         51.6 | imdisterr1           0.5 | imdisterr2          -0.5 | imdistlim        0 |\  # "imdist", distance to star [pc]
-imtelescope	             Keck II |\ # "imtelescope", Telescope used in observations ##added this
+imtelescope	             Keck:II |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument             NIRC2 |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	               2012-10-30, 2012-11-03 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	               Columba  |\ # "imcluster", name of associated cluster
@@ -45,9 +45,9 @@ implnlpmag               13.12 | implnlpmagerr    0.1 | implnlpmaglim    0 |\ # 
 #
 # Stellar Parameter Columns
 #
-imstype			    B9IVn |\ # "imstype", stellar host spectral type
+imstype			    B9 IVn |\ # "imstype", stellar host spectral type
 immass                     2.6 | immasserr1          0.2 | immasserr2        -0.2 | immasslim        0 |\ # "immass", stellar host [solar mass]
-imlum                      1.83 | imlumerr1           0.04 | imlumerr2         -0.04 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
+imlum                     67.6 | imlumerr1              7 | imlumerr2             6 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
 image		            30  | imageerr1	      120 | imageerr2	     -10 | imagelim	  0 |\ # "image", stellar age [My]
 #
 # Model Columns
