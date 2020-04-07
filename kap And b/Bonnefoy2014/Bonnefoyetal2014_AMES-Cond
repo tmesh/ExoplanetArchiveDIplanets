@@ -61,6 +61,7 @@ image		            30  | imageerr1	           120 | imageerr2	         -10 | ima
 # Model Columns
 #
 implstype		               M9-L3 |\ # "implstype", planet spectral type
+implmass                      13 | implmasserr1       23 | implmasserr2      -1 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                    1700 | impltemperr1         null | impltemperr2        null | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                  1.47 | implradiuserr1       null | implradiuserr2      null | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
 immodel		             AMES/COND |\ # "immodel", description of model ##Reference that the model is drawn from.
