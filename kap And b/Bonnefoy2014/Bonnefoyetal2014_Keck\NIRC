@@ -56,7 +56,7 @@ implstype		               M9-L3	|\ # "implstype", planet spectral type
 implmass                    14 | implmasserr1         25 | implmasserr2        -2 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                    1900 | impltemperr1         100 | impltemperr2        -200 | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                  1.2 | implradiuserr1       0.2 | implradiuserr2      -0.1 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel		          Bonnefoy et al. 2014	|\ # "immodel", description of model ##Reference that the model is drawn from.
+immodel		          Bonnefoy et al. (2014)	|\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
