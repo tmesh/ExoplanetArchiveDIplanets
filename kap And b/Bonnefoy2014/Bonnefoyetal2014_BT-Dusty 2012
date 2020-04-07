@@ -60,8 +60,8 @@ image		            30  | imageerr1	      120 | imageerr2	     -10 | imagelim	  0
 #
 implstype		               M9-L3 |\ # "implstype", planet spectral type
 implmass                      13 | implmasserr1       23 | implmasserr2      -1 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-impltemp                    1800 | impltemperr1          | impltemperr2         | impltemplim      0 |\ # "impltemp", planet temp [K]
-implradius                  1.65 | implradiuserr1        | implradiuserr2       | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
+impltemp                    1800 | impltemperr1         null | impltemperr2         null | impltemplim      0 |\ # "impltemp", planet temp [K]
+implradius                  1.65 | implradiuserr1        null | implradiuserr2       null | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
 immodel		          BT/Dusty 2012 |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
