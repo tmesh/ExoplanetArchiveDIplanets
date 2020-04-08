@@ -29,7 +29,7 @@ iminstrument             MIMIR |\ # "iminstrument", Instrument used in observati
 imdateobs	               2012-10-30 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	               Columba  |\ # "imcluster", name of associated cluster
 imdisk 		                0 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
-imcorona		      1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imcorona		      0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
 imifu 			      0 |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
@@ -51,9 +51,9 @@ implnkmag                 14.32 | implnkmagerr    0.09 | implnkmaglim     0 |\ #
 #
 # Stellar Parameter Columns
 #
-imstype			    B9IVn |\ # "imstype", stellar host spectral type
+imstype			    B9 IVn |\ # "imstype", stellar host spectral type
 immass                     2.6 | immasserr1          0.2 | immasserr2        -0.2 | immasslim        0 |\ # "immass", stellar host [solar mass]
-imlum                      1.83 | imlumerr1           0.04 | imlumerr2         -0.04 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
+imlum                     67.6 | imlumerr1              7 | imlumerr2             6 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
 image		            30  | imageerr1	      120 | imageerr2	     -10 | imagelim	  0 |\ # "image", stellar age [My]
 #
 # Model Columns
