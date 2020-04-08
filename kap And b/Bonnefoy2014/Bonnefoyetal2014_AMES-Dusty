@@ -29,7 +29,7 @@ iminstrument             MIMIR |\ # "iminstrument", Instrument used in observati
 imdateobs	          2012-10-30 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	            Columba  |\ # "imcluster", name of associated cluster
 imdisk 		                   0 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
-imcorona		                 1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imcorona		                 0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
 imifu 			                 0 |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
@@ -49,6 +49,7 @@ imlpmag                    4.32 | imkmagerr       0.05 | imkmaglim        0 |\ #
 implnjmag                 15.86 | implnjmagerr    0.21 | implnjmaglim     0 |\ # "implnjmag", planet magnitude J-band [mag] 
 implnhmag                 14.95 | implnhmagerr    0.13 | implnhmaglim     0 |\ # "implnhmag", planet magnitude H-band [mag]
 implnkmag                 14.32 | implnkmagerr    0.09 | implnkmaglim     0 |\ # "implnkmag", planet magnitude K-band [mag]
+implnlpmag                13.12 | implnlpmagerr    0.1 | implnlpmaglim    0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
 #
 # Stellar Parameter Columns
 #
@@ -60,9 +61,9 @@ image		                   30  | imageerr1	          120 | imageerr2	          -1
 # Model Columns
 #
 implstype		               M9-L3 |\ # "implstype", planet spectral type
-implmass                   0.013 | implmasserr1    0.022 | implmasserr2  -0.001 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-impltemp                    1900 | impltemperr1          | impltemperr2         | impltemplim      0 |\ # "impltemp", planet temp [K]
-implradius                  1.25 | implradiuserr1        | implradiuserr2       | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
+implmass                      13 | implmasserr1       23 | implmasserr2      -1 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp                    1900 | impltemperr1     null | impltemperr2    null | impltemplim      0 |\ # "impltemp", planet temp [K]
+implradius                  1.25 | implradiuserr1   null | implradiuserr2  null | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
 immodel		            AMES/DUSTY |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		                 0 |\ # "immodeldef" (1=yes, 0=no)
 #
