@@ -17,7 +17,7 @@ dec_str             -64:56:20.69 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imangsep              1.7 | imangseperr1      null | imangseperr2        null | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imangsep             1.71 | imangseperr1      null | imangseperr2        null | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                 162 | imseperr1         null | imseperr2           null | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
 imdist               94.6 | imdisterr1         0.3 | imdisterr2          -0.3 | imdistlim        0 |\  # "imdist", distance to star [pc]
 imtelescope	                 VLT:Antu, VLT:Melipal |\ # "imtelescope", Telescope used in observations ##added this
