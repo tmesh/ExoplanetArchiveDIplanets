@@ -57,6 +57,6 @@ immodeldef		          1 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes        Projected separation star-planet and Position angle star-planet are the average across the J, H, Ks, and L' band |\ # "imnotes"
+imnotes        Projected separation star-planet and position angle star-planet are the average across the J, H, Ks, and L' band |\ # "imnotes"
 #
 cntr                  TBD |  # counter
