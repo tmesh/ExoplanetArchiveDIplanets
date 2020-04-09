@@ -1,0 +1,73 @@
+# USER:            tanon
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        GSC06214b_Zhou2014_Mass_10Myr.dat
+# DATE:            2020-04-08
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for planet
+imreflink     2014ApJ...783L..17Z |\ # "imreflink, ADS bibcode
+imrefid			                TBD   |\ # refid for paper
+#
+# Default Columns
+#
+plntname       GSC 06214-00210 b |\ # planet name
+ra_str               16:21:54.67 |\ # RA [sexagesimal]
+dec_str             -20:43:09.13 |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imdeltjmag           6.18 | imdeltjmagerr	    0.03 | imdeltjmaglim                               0 |\			# "imdeltjmag", planet-host magnitude difference [mag]
+imdelthmag           6.19 | imdelthmagerr	    0.02 | imdelthmaglim                               0 |\			# "imdelthmag", planet-host magnitude difference [mag]
+imdeltkmag           5.74 | imdeltkmagerr	    0.01 | imdeltkmaglim                               0 |\			# "imdeltkmag", planet-host magnitude difference [mag]
+imangsep            2.204 | imangseperr1     0.002 | imangseperr2      -0.002 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                 320 | imseperr1           30 | imseperr2            -30 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+impa               175.97 | impaerr1          0.05 | impaerr2           -0.05 | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imdist                145 | imdisterr1          14 | imdisterr2           -14 | imdistlim        0 |\  # "imdist", distance to star [pc]
+imtelescope	             Gemini:Gillett |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument                       NIRI |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	                   2011-04-19 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	  Sco OB2/Upper Scorpius (US) |\ # "imcluster", name of associated cluster
+imdisk 		                            1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		           	              0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			          	              0 |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			                1 |\ # "ns", number of stars constituting the host system
+ra                    TBD |\ # RA [decimal]
+dec                   TBD |\ # Dec [decimal]
+glon                  TBD |\ # "l" [decimal]
+glat                  TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+imjmag              9.946 | imjmagerr        0.027 | imjmaglim         -0.027 |\ # "imjmag", stellar magnitude J-band [mag]
+imhmag              9.329 | imhmagerr        0.024 | imhmaglim         -0.024 |\ # "imhmag", stellar magnitude H-band [mag]
+imkmag              9.129 | imkmagerr        0.021 | imkmaglim         -0.021 |\ # "imkmag", stellar magnitude K-band [mag]
+imlpmag              9.10 | imlpmagerr        0.05 | imlpmaglim         -0.05 |\ # "imlpmag", stellar magnitude Lp-band [mag]
+implnjmag           16.13 | implnjmagerr      0.04 | implnjmaglim       -0.04 |\ # "implnjmag", planet magnitude J-band [mag]
+implnhmag           15.52 | implnhmagerr      0.03 | implnhmaglim       -0.03 |\ # "implnhmag", planet magnitude H-band [mag]
+implnkmag           14.87 | implnkmagerr      0.02 | implnkmaglim       -0.02 |\ # "implnkmag", planet magnitude K-band [mag]
+implnlpmag          13.75 | implnlpmagerr     0.07 | implnlpmaglim      -0.07 |\ # "implnlpmag", planet magnitude Lp-band [mag]
+#
+# Stellar Parameter Columns
+#
+imstype			       K7±0.5 |\ # "imstype", stellar host spectral type
+immass                0.9 | immasserr1         0.1 | immasserr2          -0.1 | immasslim        0 |\ # "immass", stellar host [solar mass]
+imlum                0.38 | imlumerr1         0.08 | imlumerr2          -0.06 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
+image		               10 | imageerr1	        null | imageerr2	         null | imagelim	       0 |\ # "image", stellar age [My]
+#
+# Model Columns
+#
+implstype		       M9±0.5 |\ # "implstype", planet spectral type
+implmass               16 | implmasserr1          1 | implmasserr2         -1 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp             2300 | impltemperr1        100 | impltemperr2       -100 | impltemplim      0 |\ # "impltemp", planet temp [K]
+immodel		BT-Settl, Allard et al. (2011), Drift-Phoenix, Helling et al. (2008), Witte et al. (2009, 2011) |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+imnotes                 Ks filter used |\ # "imnotes"
+#
+cntr                  TBD |  # counter
