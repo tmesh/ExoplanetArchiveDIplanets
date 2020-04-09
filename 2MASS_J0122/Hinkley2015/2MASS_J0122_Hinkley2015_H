@@ -40,13 +40,13 @@ glat                  TBD |\ # "b" [decimal]
 #
 # Model Columns
 #
-impltemp             1600 | impltemperr1        100 | impltemperr2       -100 | impltemplim      0 |\ # "impltemp", planet temp [K]
+impltemp             1700 | impltemperr1        100 | impltemperr2       -100 | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius            0.8 | implradiuserr1     null | implradiuserr2     null | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
 immodel		             BT-Settl, Allard et al. 2011 |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		                                    0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes                 H-band planet spectral type |\ # "imnotes"
+imnotes                 H-band temperature and radius |\ # "imnotes"
 #
 cntr                  TBD |  # counter
