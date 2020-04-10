@@ -55,12 +55,12 @@ implnkmag                 14.32 | implnkmagerr    0.09 | implnkmaglim     0 |\ #
 imstype			            B9 IVn |\ # "imstype", stellar host spectral type
 immass                     2.6 | immasserr1          0.2 | immasserr2         -0.2 | immasslim        0 |\ # "immass", stellar host [solar mass]
 imlum                     67.6 | imlumerr1             7 | imlumerr2             6 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
-image		                   30  | imageerr1	          20 | imageerr2	         -10 | imagelim	        0 |\ # "image", stellar age [My]
+image		                   30  | imageerr1	         120 | imageerr2	         -10 | imagelim	        0 |\ # "image", stellar age [My]
 #
 # Model Columns
 #
 implstype		             M9-L3 |\ # "implstype", planet spectral type
-implmass                    14 | implmasserr1          11 | implmasserr2          -2 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+implmass                    14 | implmasserr1          25 | implmasserr2          -2 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                  1900 | impltemperr1         100 | impltemperr2        -200 | impltemplim      0 |\ # "impltemp", planet temp [K]
 immodel		          COND03, Baraffe et al.(2003) |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
