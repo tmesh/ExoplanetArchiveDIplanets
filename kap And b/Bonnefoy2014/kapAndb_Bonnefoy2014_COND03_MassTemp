@@ -6,7 +6,7 @@
 # Addition of direct imaging values
 #                                    
 objectid                    TBD   |\ # objectID for planet
-imreflink           2014A&A...562A.111B  |\ # "imreflink, ADS bibcode
+imreflink    2014A&A...562A.111B  |\ # "imreflink, ADS bibcode
 imrefid			                TBD   |\ # refid for paper
 #
 # Default Columns
@@ -17,20 +17,20 @@ dec_str                         +44:20:02.2  |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltjmag                11.6 | imdeltjmagerr		      0.21 | imdeltjmaglim                0 |\			# "imdeltjmag", planet-host magnitude difference [mag]
-imdelthmag               10.64 | imdelthmagerr		      0.14 | imdelthmaglim                0 |\			# "imdelthmag", planet-host magnitude difference [mag]
-imdeltkmag               10.04 | imdeltkmagerr		      0.15 | imdeltkmaglim                0 |\			# "imdeltkmag", planet-host magnitude difference [mag]
-imangsep                      1.029 | imangseperr1         0.005 | imangseperr2    -0.005 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
-imsep                            61 | imseperr1             50 | imseperr2            -20 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
-impa                           55.3 | impaerr1             0.3 | impaerr2            -0.3 | impalim          0 |\  # "impa", star-planet position angle [deg] 
-imdist                         51.6 | imdisterr1           0.5 | imdisterr2          -0.5 | imdistlim        0 |\  # "imdist", distance to star [pc]
-imtelescope	             Perkins |\ # "imtelescope", Telescope used in observations ##added this
+imdeltjmag                11.6 | imdeltjmagerr		      0.21 | imdeltjmaglim                               0 |\  # "imdeltjmag", planet-host magnitude difference [mag]
+imdelthmag               10.64 | imdelthmagerr		      0.14 | imdelthmaglim                               0 |\	 # "imdelthmag", planet-host magnitude difference [mag]
+imdeltkmag               10.04 | imdeltkmagerr		      0.15 | imdeltkmaglim                               0 |\	 # "imdeltkmag", planet-host magnitude difference [mag]
+imangsep                 1.029 | imangseperr1          0.005 | imangseperr2      -0.005 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                       61 | imseperr1                50 | imseperr2            -20 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+impa                      55.3 | impaerr1                0.3 | impaerr2            -0.3 | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imdist                    51.6 | imdisterr1              0.5 | imdisterr2          -0.5 | imdistlim        0 |\  # "imdist", distance to star [pc]
+imtelescope	           Perkins |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument             MIMIR |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	               2012-10-30 |\ # "imdateobs", [YYYY-MM-DD] ##added this
-imcluster	               Columba  |\ # "imcluster", name of associated cluster
-imdisk 		                0 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
-imcorona		      1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
-imifu 			      0 |\ # "imifu", IFU used (1=yes, 0=no)
+imdateobs	          2012-10-30 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	            Columba  |\ # "imcluster", name of associated cluster
+imdisk 		        	         0 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		  	             1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			   	             0 |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
 #
