@@ -24,9 +24,9 @@ imangsep                 1.029 | imangseperr1          0.005 | imangseperr2     
 imsep                       61 | imseperr1                50 | imseperr2            -20 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
 impa                      55.3 | impaerr1                0.3 | impaerr2            -0.3 | impalim          0 |\  # "impa", star-planet position angle [deg] 
 imdist                    51.6 | imdisterr1              0.5 | imdisterr2          -0.5 | imdistlim        0 |\  # "imdist", distance to star [pc]
-imtelescope	           Keck:II, LBT, Perkins |\ # "imtelescope", Telescope used in observations ##added this
-iminstrument             NIRC2, LMIRCam, MIMIR |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	          2012-10-30 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imtelescope	             Perkins, Keck:II, LBT |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument             MIMIR, NIRC2, LMIRCam |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	  2012-10-30, 2012-11-03, 2012-10-06 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	            Columba  |\ # "imcluster", name of associated cluster
 imdisk 		        	         0 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		  	             1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
