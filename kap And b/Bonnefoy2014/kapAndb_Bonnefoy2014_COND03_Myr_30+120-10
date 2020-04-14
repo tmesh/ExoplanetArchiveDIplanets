@@ -67,6 +67,6 @@ immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes                Ks and L' filters used. Mass taken from the "Mass from Teff" hot-start models |\ # "imnotes"
+imnotes                Ks and L' filters used. Mass taken from the "Mass from Teff" hot-start models. |\ # "imnotes"
 #
 cntr                        TBD |  # counter
