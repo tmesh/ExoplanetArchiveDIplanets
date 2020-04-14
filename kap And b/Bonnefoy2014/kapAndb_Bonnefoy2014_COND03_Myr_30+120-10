@@ -67,6 +67,6 @@ immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes                Ks and L' filters used |\ # "imnotes"
+imnotes                Ks and L' filters used; planetary mass for the models used Teff |\ # "imnotes"
 #
 cntr                        TBD |  # counter
