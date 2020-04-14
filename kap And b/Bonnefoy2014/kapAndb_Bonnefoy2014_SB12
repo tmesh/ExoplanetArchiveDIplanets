@@ -67,6 +67,6 @@ immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes                Ks and L' filters used; Planetary mass from temperature |\ # "imnotes"
+imnotes                Ks and L' filters used |\ # "imnotes"
 #
 cntr                        TBD |  # counter
