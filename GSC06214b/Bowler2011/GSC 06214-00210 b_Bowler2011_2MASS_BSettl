@@ -53,8 +53,8 @@ image		                5 | imageerr1	           2 | imageerr2	           -2 | im
 # Model Columns
 #
 implstype		         L0±1 |\ # "implstype", planet spectral type
-implmass               14 | implmasserr1          2 | implmasserr2         -2 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp             2700 | impltemperr1        200 | impltemperr2       -200 | impltemplim      0 |\ # "impltemp", planet temp [K]
+implradius           1.89 | implradiuserr1     0.18 | implradiuserr2    -0.18 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
 immodel		          	   B-Settl, Allard et al. (2010) |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
 #
