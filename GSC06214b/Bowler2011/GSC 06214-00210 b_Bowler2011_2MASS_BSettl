@@ -41,7 +41,8 @@ glat                  TBD |\ # "b" [decimal]
 imjmag              9.998 | imjmagerr        0.027 | imjmaglim               0 |\ # "imjmag", stellar magnitude J-band [mag]
 imhmag              9.342 | imhmagerr        0.024 | imhmaglim               0 |\ # "imhmag", stellar magnitude H-band [mag]
 imkmag              9.152 | imkmagerr        0.021 | imkmaglim               0 |\ # "imkmag", stellar magnitude K-band [mag]
-#
+implnjmag           16.25 | implnjmagerr      0.04 | implnjmaglim            0 |\ # "implnjmag", planet magnitude J-band [mag]
+implnhmag           15.55 | implnhmagerr      0.04 | implnhmaglim            0 |\ # "implnhmag", planet magnitude H-band [mag]#
 # Stellar Parameter Columns
 #
 imstype			       K7±0.5 |\ # "imstype", stellar host spectral type
