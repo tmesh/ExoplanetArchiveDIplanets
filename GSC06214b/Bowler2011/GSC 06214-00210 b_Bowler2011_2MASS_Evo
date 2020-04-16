@@ -1,0 +1,64 @@
+# USER:            tanon
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        GSC 06214-00210 b_Bowler2011_2MASS_Evo.dat
+# DATE:            2020-04-15
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for planet
+imreflink     2011ApJ...743..148B |\ # "imreflink, ADS bibcode
+imrefid			                TBD   |\ # refid for paper
+#
+# Default Columns
+#
+plntname       GSC 06214-00210 b |\ # planet name
+ra_str               16:21:54.67 |\ # RA [sexagesimal]
+dec_str             -20:43:09.13 |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imangsep              2.2 | imangseperr1      null | imangseperr2        null | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                 320 | imseperr1           30 | imseperr2            -30 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+]imdist               145 | imdisterr1          14 | imdisterr2           -14 | imdistlim        0 |\  # "imdist", distance to star [pc]
+imtelescope	                   Keck:II |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument                    OSIRIS |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	                  2010-07-09 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	 Sco OB2/Upper Scorpius (US) |\ # "imcluster", name of associated cluster
+imdisk 		                           1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		                         0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			                         1 |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			                1 |\ # "ns", number of stars constituting the host system
+ra                    TBD |\ # RA [decimal]
+dec                   TBD |\ # Dec [decimal]
+glon                  TBD |\ # "l" [decimal]
+glat                  TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+imjmag              9.998 | imjmagerr        0.027 | imjmaglim               0 |\ # "imjmag", stellar magnitude J-band [mag]
+imhmag              9.342 | imhmagerr        0.024 | imhmaglim               0 |\ # "imhmag", stellar magnitude H-band [mag]
+imkmag              9.152 | imkmagerr        0.021 | imkmaglim               0 |\ # "imkmag", stellar magnitude K-band [mag]
+#
+# Stellar Parameter Columns
+#
+imstype			       K7±0.5 |\ # "imstype", stellar host spectral type
+immass                0.9 | immasserr1         0.1 | immasserr2          -0.1 | immasslim        0 |\ # "immass", stellar host [solar mass]
+imlum                0.38 | imlumerr1         0.07 | imlumerr2          -0.07 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
+image		                5 | imageerr1	           2 | imageerr2	           -2 | imagelim	       0 |\ # "image", stellar age [My]
+#
+# Model Columns
+#
+implstype		         L0±1 |\ # "implstype", planet spectral type
+implmass               14 | implmasserr1          2 | implmasserr2         -2 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp             2200 | impltemperr1        100 | impltemperr2       -100 | impltemplim      0 |\ # "impltemp", planet temp [K]
+immodel		          	   Evolutionary model |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+imnotes                  Ks filter used. Evolutionary model temperature. 2MASS stellar photometry. |\ # "imnotes"
+#
+cntr                  TBD |  # counter
