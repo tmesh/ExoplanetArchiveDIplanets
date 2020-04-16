@@ -56,11 +56,12 @@ image		                5 | imageerr1	           2 | imageerr2	           -2 | im
 implstype		         L0±1 |\ # "implstype", planet spectral type
 implmass               14 | implmasserr1          2 | implmasserr2         -2 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp             2200 | impltemperr1        100 | impltemperr2       -100 | impltemplim      0 |\ # "impltemp", planet temp [K]
-immodel		          	   Evolutionary model |\ # "immodel", description of model ##Reference that the model is drawn from.
+implradius           1.89 | implradiuserr1     0.18 | implradiuserr2    -0.18 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
+immodel		Lyon/COND, Baraffe et al. (2003), DUSTY, Chabrier et al. (2000), clear and cloudy, Saumon & Marley (2008) |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes                  Ks filter used. Evolutionary model temperature. 2MASS stellar photometry. |\ # "imnotes"
+imnotes                  Ks filter used. Evolutionary models temperature. 2MASS stellar photometry. |\ # "imnotes"
 #
 cntr                  TBD |  # counter
