@@ -1,41 +1,36 @@
 # USER:            tanon
 # DESCRIPTION:     Direct Imaging Table Update
-# FILENAME:        INSERT DAT FILE NAME.dat
-# DATE:            YYYY-MM-DD
+# FILENAME:        1RXS J160929.1-210524 b_Lafreniere2010_2009-04-06.dat
+# DATE:            2020-04-16
 #                                    
 # Addition of direct imaging values
 #                                    
 objectid                    TBD   |\ # objectID for planet
-imreflink                         |\ # "imreflink, ADS bibcode
+imreflink     2010ApJ...719..497L |\ # "imreflink, ADS bibcode
 imrefid			                TBD   |\ # refid for paper
 #
 # Default Columns
 #
-plntname                         |\ # planet name
-ra_str                           |\ # RA [sexagesimal]
-dec_str                          |\ # Dec [sexagesimal]
+plntname   1RXS J160929.1-210524 b |\ # planet name
+ra_str                 16:09:30.31 |\ # RA [sexagesimal]
+dec_str                -21:04:58.9 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltjmag                | imdeltjmagerr	         | imdeltjmaglim                               0 |\			# "imdeltjmag", planet-host magnitude difference [mag]
-imdelthmag                | imdelthmagerr	         | imdelthmaglim                               0 |\			# "imdelthmag", planet-host magnitude difference [mag]
-imdeltkmag                | imdeltkmagerr	         | imdeltkmaglim                               0 |\			# "imdeltkmag", planet-host magnitude difference [mag]
-imdeltlpmag               | imdeltlpmagerr	       | imdeltlpmaglim                              0 |\			# "imdeltlpmag", planet-host magnitude difference [mag]
-imangsep                  | imangseperr1           | imangseperr2             | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
-imsep                     | imseperr1              | imseperr2                | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
-impa                      | impaerr1               | impaerr2                 | impalim          0 |\  # "impa", star-planet position angle [deg] 
-imdist                    | imdisterr1             | imdisterr2               | imdistlim        0 |\  # "imdist", distance to star [pc]
-imtelescope	              |\ # "imtelescope", Telescope used in observations ##added this
-iminstrument              |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	                |\ # "imdateobs", [YYYY-MM-DD] ##added this
-imcluster	                |\ # "imcluster", name of associated cluster
-imdisk 		                |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
-imcorona		              |\ # "imcorona", Coronagraph used (1=yes, 0=no)
-imifu 			              |\ # "imifu", IFU used (1=yes, 0=no)
+imangsep            2.222 | impaerr1         0.006 | impaerr2          -0.006 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                 330 | imseperr1         null | imseperr2           null | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+impa                27.65 | impaerr1          0.10 | impaerr2            0.10 | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imtelescope	             Gemini:Gillett |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument                  	   NIRI |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	                   2009-04-06 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster   Sco OB2/Upper Scorpius (US) |\ # "imcluster", name of associated cluster
+imdisk 		                   	        0 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		                   	      0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			                  	      0 |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
 #
-ns			                  |\ # "ns", number of stars constituting the host system
+ns			                1 |\ # "ns", number of stars constituting the host system
 ra                    TBD |\ # RA [decimal]
 dec                   TBD |\ # Dec [decimal]
 glon                  TBD |\ # "l" [decimal]
@@ -43,33 +38,21 @@ glat                  TBD |\ # "b" [decimal]
 #
 # Photometry Columns
 #
-imjmag                    | imjmagerr              | imjmaglim               0 |\ # "imjmag", stellar magnitude J-band [mag]
-imhmag                    | imhmagerr              | imhmaglim               0 |\ # "imhmag", stellar magnitude H-band [mag]
-imkmag                    | imkmagerr              | imkmaglim               0 |\ # "imkmag", stellar magnitude K-band [mag]
-imlpmag                   | imlpmagerr             | imlpmaglim              0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
-implnjmag                 | implnjmagerr           | implnjmaglim            0 |\ # "implnjmag", planet magnitude J-band [mag]
-implnhmag                 | implnhmagerr           | implnhmaglim            0 |\ # "implnhmag", planet magnitude H-band [mag]
-implnkmag                 | implnkmagerr           | implnkmaglim            0 |\ # "implnkmag", planet magnitude K-band [mag]
-implnlpmag                | implnlpmagerr          | implnlpmaglim           0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
 #
 # Stellar Parameter Columns
 #
-imstype			              |\ # "imstype", stellar host spectral type
-immass                    | immasserr1             | immasserr2               | immasslim        0 |\ # "immass", stellar host [solar mass]
-imlum                     | imlumerr1              | imlumerr2                | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
-image		                  | imageerr1	             | imageerr2	              | imagelim	       0 |\ # "image", stellar age [My]
+imlum                0.43 | imlumerr1         0.18 | imlumerr2           0.12 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
+image		                5 | imageerr1	        null | imageerr2	         null | imagelim	       0 |\ # "image", stellar age [My]
 #
 # Model Columns
 #
-implstype		              |\ # "implstype", planet spectral type
-implmass                  | implmasserr1            | implmasserr2            | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-impltemp                  | impltemperr1            | impltemperr2            | impltemplim      0 |\ # "impltemp", planet temp [K]
-implradius                | implradiuserr1          | implradiuserr2          | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel		          	    |\ # "immodel", description of model ##Reference that the model is drawn from.
+implmass                8 | implmasserr1          3 | implmasserr2          2 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp             1800 | impltemperr1        200 | impltemperr2       -200 | impltemplim      0 |\ # "impltemp", planet temp [K]
+immodel		    DUSTY (Chabrier et al. 2000), DRIFT PHOENIX (Witte et al. 2009, Helling et al. 2008), NextGen (Hauschildt et al. 1999) |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes                   |\ # "imnotes"
+imnotes                  K' filter used |\ # "imnotes"
 #
 cntr                  TBD |  # counter
