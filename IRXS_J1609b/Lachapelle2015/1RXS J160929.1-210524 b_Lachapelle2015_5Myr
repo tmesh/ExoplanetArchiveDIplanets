@@ -1,0 +1,61 @@
+# USER:            tanon
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        1RXS J160929.1-210524 b_Lachapelle2015_5Myr.dat
+# DATE:            2020-04-17
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for planet
+imreflink     2015ApJ...802...61L |\ # "imreflink, ADS bibcode
+imrefid			                TBD   |\ # refid for paper
+#
+# Default Columns
+#
+plntname 1RXS J160929.1-210524 b |\ # planet name
+ra_str               16:09:30.31 |\ # RA [sexagesimal]
+dec_str              -21:04:58.9 |\ # Dec [sexagesimal]
+#
+# Imaging Columns 
+#
+imsep                 330 | imseperr1         null | imseperr2           null | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+imdist                145 | imdisterr1          14 | imdisterr2           -14 | imdistlim        0 |\  # "imdist", distance to star [pc]
+imcluster	 Sco OB2/Upper Scorpius (US) |\ # "imcluster", name of associated cluster
+imdisk 		                           0 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		                         0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			                         0 |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			                1 |\ # "ns", number of stars constituting the host system
+ra                    TBD |\ # RA [decimal]
+dec                   TBD |\ # Dec [decimal]
+glon                  TBD |\ # "l" [decimal]
+glat                  TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+imjmag              9.764 | imjmagerr            0.027 | imjmaglim               0 |\ # "imjmag", stellar magnitude J-band [mag]
+imhmag              9.109 | imhmagerr            0.023 | imhmaglim               0 |\ # "imhmag", stellar magnitude H-band [mag]
+imkmag              8.891 | imkmagerr            0.021 | imkmaglim               0 |\ # "imkmag", stellar magnitude K-band [mag]
+implnjmag           17.85 | implnjmagerr          0.12 | implnjmaglim            0 |\ # "implnjmag", planet magnitude J-band [mag]
+implnhmag           16.86 | implnhmagerr          0.07 | implnhmaglim            0 |\ # "implnhmag", planet magnitude H-band [mag]
+implnkmag           16.15 | implnkmagerr          0.05 | implnkmaglim            0 |\ # "implnkmag", planet magnitude K-band [mag]
+#
+# Stellar Parameter Columns
+#
+image		                5 | imageerr1	         null | imageerr2	         null | imagelim	       0 |\ # "image", stellar age [My]
+#
+# Model Columns
+#
+implstype		         L4±1 |\ # "implstype", planet spectral type
+implmass                8 | implmasserr1          1 | implmasserr2         -2 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp             1700 | impltemperr1        100 | impltemperr2       -100 | impltemplim      0 |\ # "impltemp", planet temp [K]
+immodel		  BT-Settl (Allard et al. 2011), Drift-Phoenix (Helling et al. 2008, Witte et al. 2009, 2011) |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+imnotes                  Ks filter used |\ # "imnotes"
+#
+cntr                  TBD |  # counter
+
