@@ -44,7 +44,7 @@ glat                  TBD |\ # "b" [decimal]
 implmass               31 | implmasserr1         10 | implmasserr2        -10 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp             2400 | impltemperr1       null | impltemperr2       null | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius            4.6 | implradiuserr1      1.4 | implradiuserr2     -1.4 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel		      BT-Settle |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodel		      BT-Settl |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
