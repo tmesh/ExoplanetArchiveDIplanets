@@ -1,0 +1,53 @@
+# USER:            tanon
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        PDS 70 b_Haffert2019_2016-05-14.dat
+# DATE:            2020-04-21
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for planet
+imreflink    2019NatAs...3..749H  |\ # "imreflink, ADS bibcode
+imrefid			                TBD   |\ # refid for paper
+#
+# Default Columns
+#
+plntname                PDS 70 b |\ # planet name
+ra_str                4:08:10.16 |\ # RA [sexagesimal]
+dec_str             -41:23:52.58 |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imdeltkmag            8.0 | imdeltkmagerr	     0.2 | imdeltkmaglim                               0 |\			# "imdeltkmag", planet-host magnitude difference [mag]
+imangsep          0.18613 | imangseperr1     0.007 | imangseperr2      -0.007 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                21.3 | imseperr1            1 | imseperr2              1 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+impa                152.4 | impaerr1           1.5 | impaerr2            -1.5 | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imtelescope	  VLT:Melipal |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument       SPHERE |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	     2016-05-14 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		            0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			            0 |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			                1 |\ # "ns", number of stars constituting the host system
+ra                    TBD |\ # RA [decimal]
+dec                   TBD |\ # Dec [decimal]
+glon                  TBD |\ # "l" [decimal]
+glat                  TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+#
+# Stellar Parameter Columns
+#
+#
+# Model Columns
+#
+immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+imnotes                  K1 filter used |\ # "imnotes"
+#
+cntr                  TBD |  # counter
