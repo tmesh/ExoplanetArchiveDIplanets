@@ -11,9 +11,9 @@ imrefid			                TBD   |\ # refid for paper
 #
 # Default Columns
 #
-plntname                         |\ # planet name
-ra_str                           |\ # RA [sexagesimal]
-dec_str                          |\ # Dec [sexagesimal]
+plntname                PDS 70 c |\ # planet name
+ra_str               14:08:10.16 |\ # RA [sexagesimal]
+dec_str             -41:23:52.58 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
