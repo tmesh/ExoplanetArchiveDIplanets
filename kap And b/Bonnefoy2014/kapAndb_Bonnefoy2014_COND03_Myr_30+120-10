@@ -52,7 +52,7 @@ implnlpmag                13.12 | implnlpmagerr   0.01 | implnlpmaglim    0 |\ #
 #
 imstype			            B9 IVn |\ # "imstype", stellar host spectral type
 immass                     2.6 | immasserr1          0.2 | immasserr2         -0.2 | immasslim        0 |\ # "immass", stellar host [solar mass]
-imlum                     67.6 | imlumerr1             7 | imlumerr2             6 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
+imlum                     67.6 | imlumerr1           6.5 | imlumerr2          -6.0 | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
 image		                   30  | imageerr1	         120 | imageerr2	         -10 | imagelim	        0 |\ # "image", stellar age [My]
 #
 # Model Columns
