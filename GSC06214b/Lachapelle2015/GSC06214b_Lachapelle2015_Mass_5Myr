@@ -20,6 +20,7 @@ dec_str             -20:43:09.13 |\ # Dec [sexagesimal]
 imdeltjmag           6.18 | imdeltjmagerr	    0.03 | imdeltjmaglim                               0 |\	 # "imdeltjmag", planet-host magnitude difference [mag]
 imdelthmag           6.19 | imdelthmagerr	    0.02 | imdelthmaglim                               0 |\	 # "imdelthmag", planet-host magnitude difference [mag]
 imdeltkmag           5.74 | imdeltkmagerr	    0.01 | imdeltkmaglim                               0 |\	 # "imdeltkmag", planet-host magnitude difference [mag]
+imdeltlpmag          4.65 | imdeltlpmagerr	  0.09 | imdeltlpmaglim                              0 |\			# "imdeltlpmag", planet-host magnitude difference [mag]
 imangsep            2.204 | imangseperr1     0.002 | imangseperr2      -0.002 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                 320 | imseperr1           30 | imseperr2            -30 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
 impa               175.97 | impaerr1          0.05 | impaerr2           -0.05 | impalim          0 |\  # "impa", star-planet position angle [deg] 
@@ -66,6 +67,6 @@ immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes                 Ks filter used |\ # "imnotes"
+imnotes                 Ks and L' filters used |\ # "imnotes"
 #
 cntr                  TBD |  # counter
