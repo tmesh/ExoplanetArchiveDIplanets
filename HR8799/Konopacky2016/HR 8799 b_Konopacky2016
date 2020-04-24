@@ -25,8 +25,8 @@ imangsep                  | imangseperr1           | imangseperr2             | 
 imsep                     | imseperr1              | imseperr2                | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
 impa                      | impaerr1               | impaerr2                 | impalim          0 |\  # "impa", star-planet position angle [deg] 
 imdist                    | imdisterr1             | imdisterr2               | imdistlim        0 |\  # "imdist", distance to star [pc]
-imtelescope	              |\ # "imtelescope", Telescope used in observations ##added this
-iminstrument              |\ # "iminstrument", Instrument used in observations ##added this
+imtelescope	      Keck:II |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument        NIRC2 |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	                |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	                |\ # "imcluster", name of associated cluster
 imdisk 		                |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
