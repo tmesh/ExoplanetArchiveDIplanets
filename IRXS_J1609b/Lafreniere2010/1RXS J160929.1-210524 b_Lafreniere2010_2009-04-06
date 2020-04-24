@@ -17,6 +17,7 @@ dec_str                -21:04:58.9 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
+imdeltlpmag           6.1 | imdeltlpmagerr	   0.3 | imdeltlpmaglim                              0 |\	 # "imdeltlpmag", planet-host magnitude difference [mag]
 imangsep            2.222 | impaerr1         0.006 | impaerr2          -0.006 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                 330 | imseperr1         null | imseperr2           null | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
 impa                27.65 | impaerr1          0.10 | impaerr2            0.10 | impalim          0 |\  # "impa", star-planet position angle [deg] 
@@ -48,7 +49,7 @@ image		                5 | imageerr1	        null | imageerr2	         null | im
 #
 implmass                8 | implmasserr1          3 | implmasserr2          2 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp             1800 | impltemperr1        200 | impltemperr2       -200 | impltemplim      0 |\ # "impltemp", planet temp [K]
-immodel		    DUSTY (Chabrier et al. 2000), DRIFT PHOENIX (Witte et al. 2009, Helling et al. 2008), NextGen (Hauschildt et al. 1999) |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodel		    DUSTY (Chabrier et al. 2000), DRIFT PHOENIX (Witte et al. 2009, Helling et al. 2008) |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
