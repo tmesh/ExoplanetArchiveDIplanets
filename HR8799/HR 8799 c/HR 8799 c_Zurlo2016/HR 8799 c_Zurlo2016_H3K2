@@ -38,8 +38,8 @@ glat                  TBD |\ # "b" [decimal]
 #
 # Photometry Columns
 #
-implnhmag           13.80 | implnhmagerr          0.10 | implnhmaglim             |\ # "implnhmag", planet magnitude H-band [mag]
-implnkmag           12.88 | implnkmagerr          0.07 | implnkmaglim             |\ # "implnkmag", planet magnitude K-band [mag]
+implnhmag           13.80 | implnhmagerr          0.10 | implnhmaglim            0 |\ # "implnhmag", planet magnitude H-band [mag]
+implnkmag           12.88 | implnkmagerr          0.07 | implnkmaglim            0 |\ # "implnkmag", planet magnitude K-band [mag]
 #
 # Stellar Parameter Columns
 #
