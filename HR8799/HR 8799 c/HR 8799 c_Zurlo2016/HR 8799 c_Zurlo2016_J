@@ -11,7 +11,7 @@ imrefid			                TBD   |\ # refid for paper
 #
 # Default Columns
 #
-plntname               HR 8799 b |\ # planet name
+plntname               HR 8799 c |\ # planet name
 ra_str               23:07:28.72 |\ # RA [sexagesimal]
 dec_str              +21:08:03.3 |\ # Dec [sexagesimal]
 #
