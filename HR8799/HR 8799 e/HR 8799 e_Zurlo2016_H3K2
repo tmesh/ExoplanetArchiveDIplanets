@@ -1,0 +1,58 @@
+# USER:            tanon
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        HR 8799 e_Zurlo2016_H3K2.dat
+# DATE:            2020-04-28
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for planet
+imreflink    2016A&A...587A..57Z  |\ # "imreflink, ADS bibcode
+imrefid			                TBD   |\ # refid for paper
+#
+# Default Columns
+#
+plntname               HR 8799 e |\ # planet name
+ra_str               23:07:28.72 |\ # RA [sexagesimal]
+dec_str              +21:08:03.3 |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imdelthmag          11.40 | imdelthmagerr	    0.21 | imdelthmaglim                               0 |\			# "imdelthmag", planet-host magnitude difference [mag]
+imdeltkmag          10.58 | imdeltkmagerr	    0.11 | imdeltkmaglim                               0 |\			# "imdeltkmag", planet-host magnitude difference [mag]
+imsep               67.96 | imseperr1         1.85 | imseperr2           1.85 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+imtelescope	               VLT:Melipal |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument             IRDIS, SPHERE |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	      2014-07-13, 2014-08-12 |\ # "imdateobs", [YYYY-MM-DD] ##added this 
+imcluster	  	                 Columba |\ # "imcluster", name of associated cluster
+imdisk 		                           1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		                         1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			                         1 |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			                1 |\ # "ns", number of stars constituting the host system
+ra                    TBD |\ # RA [decimal]
+dec                   TBD |\ # Dec [decimal]
+glon                  TBD |\ # "l" [decimal]
+glat                  TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+implnhmag           13.70 | implnhmagerr          0.21 | implnhmaglim            0 |\ # "implnhmag", planet magnitude H-band [mag]
+implnkmag           12.84 | implnkmagerr          0.11 | implnkmaglim            0 |\ # "implnkmag", planet magnitude K-band [mag]
+#
+# Stellar Parameter Columns
+#
+immass               1.51 | immasserr1       0.038 | immasserr2         0.024 | immasslim        0 |\ # "immass", stellar host [solar mass]
+image		               30 | imageerr1	        null | imageerr2	         null | imagelim	       0 |\ # "image", stellar age [My]
+#
+# Model Columns
+#
+immodel		        "hot-start" BT-SETTL, “warm-start” Spiegel & Burrows (2012) |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+imnotes                  H3 and K2 filters used |\ # "imnotes"
+#
+cntr                  TBD |  # counter
