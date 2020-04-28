@@ -50,7 +50,7 @@ implstype		           L7 |\ # "implstype", planet spectral type
 implmass               10 | implmasserr1          7 | implmasserr2         −4 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp             1150 | impltemperr1         50 | impltemperr2         50 | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius           1.17 | implradiuserr1     0.13 | implradiuserr2   −0.11  | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel		        Exo-REM (Charnay et al. 2018), BT-Settl 2014 (Baraffe et al. 2015) |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodel		        Exo-REM (Charnay et al. 2018) |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
