@@ -12,30 +12,29 @@ imrefid			                TBD   |\ # refid for paper
 # Default Columns
 #
 plntname             HIP 78530 b |\ # planet name
-ra_str                           |\ # RA [sexagesimal]
-dec_str                          |\ # Dec [sexagesimal]
+ra_str               16:01:55.46 |\ # RA [sexagesimal]
+dec_str              -21:58:49.4 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltjmag            | imdeltjmagerr	     | imdeltjmaglim                               0 |\			# "imdeltjmag", planet-host magnitude difference [mag]
-imdelthmag            | imdelthmagerr	     | imdelthmaglim                               0 |\			# "imdelthmag", planet-host magnitude difference [mag]
-imdeltkmag            | imdeltkmagerr	     | imdeltkmaglim                               0 |\			# "imdeltkmag", planet-host magnitude difference [mag]
-imdeltlpmag           | imdeltlpmagerr	   | imdeltlpmaglim                              0 |\			# "imdeltlpmag", planet-host magnitude difference [mag]
-imangsep              | imangseperr1      | imangseperr2       | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
-imsep                  | imseperr1            | imseperr2             | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
-impa                | impaerr1           | impaerr2            | impalim          0 |\  # "impa", star-planet position angle [deg] 
-imdist                 | imdisterr1          | imdisterr2            | imdistlim        0 |\  # "imdist", distance to star [pc]
-imtelescope	              |\ # "imtelescope", Telescope used in observations ##added this
-iminstrument                        |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	                    |\ # "imdateobs", [YYYY-MM-DD] ##added this
-imcluster	   |\ # "imcluster", name of associated cluster
-imdisk 		                             |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
-imcorona		           	               |\ # "imcorona", Coronagraph used (1=yes, 0=no)
-imifu 			          	               |\ # "imifu", IFU used (1=yes, 0=no)
+imdeltjmag       8.28 | imdeltjmagerr	      0.05 | imdeltjmaglim                            0 |\			# "imdeltjmag", planet-host magnitude difference [mag]
+imdelthmag       7.61 | imdelthmagerr	      0.03 | imdelthmaglim                            0 |\			# "imdelthmag", planet-host magnitude difference [mag]
+imdeltkmag       7.28 | imdeltkmagerr	     	0.03 | imdeltkmaglim                            0 |\			# "imdeltkmag", planet-host magnitude difference [mag]
+imdeltlpmag       6.9 | imdeltlpmagerr	   	 0.2 | imdeltlpmaglim                           0 |\			# "imdeltlpmag", planet-host magnitude difference [mag]
+imangsep        4.527 | imangseperr1       0.003 | imangseperr2   -0.003 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep             740 | imseperr1             60 | imseperr2         -60 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+impa           140.30 | impaerr1             0.1 | impaerr2         -0.1 | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imtelescope	             Gemini:Gillett |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument                       NIRI |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	       2011-03-30, 2011-08-16 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	  Sco OB2/Upper Scorpius (US) |\ # "imcluster", name of associated cluster
+imdisk 		                            0 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		           	              0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			           	              0 |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
 #
-ns			                 |\ # "ns", number of stars constituting the host system
+ns			                1 |\ # "ns", number of stars constituting the host system
 ra                    TBD |\ # RA [decimal]
 dec                   TBD |\ # Dec [decimal]
 glon                  TBD |\ # "l" [decimal]
@@ -43,27 +42,24 @@ glat                  TBD |\ # "b" [decimal]
 #
 # Photometry Columns
 #
-imjmag                    | imjmagerr              | imjmaglim              0 |\ # "imjmag", stellar magnitude J-band [mag]
-imhmag                    | imhmagerr              | imhmaglim              0 |\ # "imhmag", stellar magnitude H-band [mag]
-imkmag                    | imkmagerr              | imkmaglim              0 |\ # "imkmag", stellar magnitude K-band [mag]
-imlpmag                   | imlpmagerr             | imlpmaglim             0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
-implnjmag                 | implnjmagerr           | implnjmaglim           0 |\ # "implnjmag", planet magnitude J-band [mag]
-implnhmag                 | implnhmagerr           | implnhmaglim           0 |\ # "implnhmag", planet magnitude H-band [mag]
-implnkmag                 | implnkmagerr           | implnkmaglim           0 |\ # "implnkmag", planet magnitude K-band [mag]
-implnlpmag                | implnlpmagerr          | implnlpmaglim          0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
+imjmag                   6.925 | imjmagerr             0.021 | imjmaglim              0 |\ # "imjmag", stellar magnitude J-band [mag]
+imhmag                   6.931 | imhmagerr             0.029 | imhmaglim              0 |\ # "imhmag", stellar magnitude H-band [mag]
+imkmag                   6.900 | imkmagerr             0.020 | imkmaglim              0 |\ # "imkmag", stellar magnitude K-band [mag]
+imlpmag                   6.91 | imlpmagerr             0.02 | imlpmaglim             0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
+implnjmag                15.21 | implnjmagerr           0.05 | implnjmaglim           0 |\ # "implnjmag", planet magnitude J-band [mag]
+implnhmag                14.55 | implnhmagerr           0.04 | implnhmaglim           0 |\ # "implnhmag", planet magnitude H-band [mag]
+implnkmag                14.18 | implnkmagerr           0.04 | implnkmaglim           0 |\ # "implnkmag", planet magnitude K-band [mag]
+implnlpmag               13.81 | implnlpmagerr          0.20 | implnlpmaglim          0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
 #
 # Stellar Parameter Columns
 #
-imstype			              |\ # "imstype", stellar host spectral type
-immass                    | immasserr1             | immasserr2               | immasslim        0 |\ # "immass", stellar host [solar mass]
-imlum                     | imlumerr1              | imlumerr2                | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
-image		                  | imageerr1	             | imageerr2	              | imagelim	       0 |\ # "image", stellar age [My]
+image		                5 | imageerr1	        null | imageerr2	         null | imagelim	       0 |\ # "image", stellar age [My]
 #
 # Model Columns
 #
-implstype		              |\ # "implstype", planet spectral type
-implmass                  | implmasserr1            | implmasserr2            | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-impltemp                  | impltemperr1            | impltemperr2            | impltemplim      0 |\ # "impltemp", planet temp [K]
+implstype		             M7±0.5 |\ # "implstype", planet spectral type
+implmass                  0.023 | implmasserr1           0.002 | implmasserr2           -0.002 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp                   2700 | impltemperr1             100 | impltemperr2             -100 | impltemplim      0 |\ # "impltemp", planet temp [K]
 immodel		BT-Settl (Allard et al. 2011), Drift-Phoenix (Helling et al. 2008, Witte et al. 2009, 2011) |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
 #
