@@ -64,7 +64,7 @@ image		               10 | imageerr1	        null | imageerr2	         null | im
 implstype		       M9±0.5 |\ # "implstype", planet spectral type
 implmass               17 | implmasserr1          1 | implmasserr2         -1 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp             2300 | impltemperr1        100 | impltemperr2       -100 | impltemplim      0 |\ # "impltemp", planet temp [K]
-immodel		BT-Settl, Allard et al. (2011), Drift-Phoenix, Helling et al. (2008), Witte et al. (2009, 2011) |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodel		BT-Settl (Allard et al. 2011), Drift-Phoenix (Helling et al. 2008, Witte et al. 2009, 2011) |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
