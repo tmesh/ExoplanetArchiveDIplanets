@@ -1,0 +1,55 @@
+# USER:            tanon
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        PDS 70 c_Wang2020_BT-Settl.dat
+# DATE:            2020-04-29
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for planet
+imreflink     2020arXiv200409597W |\ # "imreflink, ADS bibcode
+imrefid			                TBD   |\ # refid for paper
+#
+# Default Columns
+#
+plntname                PDS 70 c |\ # planet name
+ra_str               14:08:10.16 |\ # RA [sexagesimal]
+dec_str             -41:23:52.58 |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imdeltlpmag          7.61 | imdeltlpmagerr	  0.46 | imdeltlpmaglim                              0 |\	 # "imdeltlpmag", planet-host magnitude difference [mag]
+imangsep           0.2234 | imangseperr1     0.008 | imangseperr2      -0.008 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                  34 | imseperr1           12 | imseperr2             −6 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+impa                280.4 | impaerr1           2.0 | impaerr2            -2.0 | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imtelescope	      Keck:II |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument        NIRC2 |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	     2019-06-08 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		            1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			                1 |\ # "ns", number of stars constituting the host system
+ra                    TBD |\ # RA [decimal]
+dec                   TBD |\ # Dec [decimal]
+glon                  TBD |\ # "l" [decimal]
+glat                  TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+#
+# Stellar Parameter Columns
+#
+#
+# Model Columns
+#
+impltemp             1251 | impltemperr1        129 | impltemperr2       −104 | impltemplim      0 |\ # "impltemp", planet temp [K]
+implradius           0.59 | implradiuserr1     0.17 | implradiuserr2    −0.17 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
+immodel		       BT-Settl |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		          1 |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+imnotes                  L' filter used |\ # "imnotes"
+#
+cntr                  TBD |  # counter
