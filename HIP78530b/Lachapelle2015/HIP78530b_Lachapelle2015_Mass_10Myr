@@ -53,7 +53,7 @@ implnlpmag               13.81 | implnlpmagerr          0.20 | implnlpmaglim    
 #
 # Stellar Parameter Columns
 #
-image		                5 | imageerr1	        null | imageerr2	         null | imagelim	       0 |\ # "image", stellar age [My]
+image		                    10 | imageerr1	        null | imageerr2	         null | imagelim	       0 |\ # "image", stellar age [My]
 #
 # Model Columns
 #
