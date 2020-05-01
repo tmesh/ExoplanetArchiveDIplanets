@@ -17,7 +17,7 @@ dec_str              -25:27:24.7 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imangsep            1.178 | imangseperr1     0.001 | imangseperr2       0.001 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imangsep            1.778 | imangseperr1     0.001 | imangseperr2       0.001 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                 213 | imseperr1         null | imseperr2           null | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
 impa                 8.90 | impaerr1          0.08 | impaerr2           −0.08 | impalim          0 |\  # "impa", star-planet position angle [deg] 
 imtelescope	      Keck:II |\ # "imtelescope", Telescope used in observations ##added this
