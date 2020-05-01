@@ -20,7 +20,7 @@ dec_str              -35:39:05.1 |\ # Dec [sexagesimal]
 imtelescope	          	           HST |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument         	            WFC3 |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	    	            2010-02-25 |\ # "imdateobs", [YYYY-MM-DD] ##added this
-imcluster	 Sco OB2/Upper Scorpius (US) |\ # "imcluster", name of associated cluster
+imcluster	                       Lupus |\ # "imcluster", name of associated cluster
 imdisk 		           	               1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		         	               0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
 imifu 			          	             0 |\ # "imifu", IFU used (1=yes, 0=no)
@@ -44,7 +44,7 @@ glat                  TBD |\ # "b" [decimal]
 implmass               31 | implmasserr1         10 | implmasserr2        -10 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp             2400 | impltemperr1       null | impltemperr2       null | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius            4.6 | implradiuserr1      1.4 | implradiuserr2     -1.4 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel		      BT-Settl |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodel		      BT-Settl (Allard et al. 2012) |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
