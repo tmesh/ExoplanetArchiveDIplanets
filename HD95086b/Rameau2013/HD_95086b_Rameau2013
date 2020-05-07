@@ -1,0 +1,58 @@
+# USER:            tanon
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        HD_95086b_Rameau2013.dat
+# DATE:            2020-04-29
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for planet
+imreflink     2013ApJ...779L..26R |\ # "imreflink, ADS bibcode
+imrefid			                TBD   |\ # refid for paper
+#
+# Default Columns
+#
+plntname              HD 95086 b |\ # planet name
+ra_str               10:57:03.02 |\ # RA [sexagesimal]
+dec_str              -68:40:02.4 |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imdeltlpmag           9.2 | imdeltlpmagerr	   0.8 | imdeltlpmaglim                              0 |\	 # "imdeltlpmag", planet-host magnitude difference [mag]
+imangsep            0.600 | imangseperr1     0.011 | imangseperr2      -0.011 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                55.7 | imseperr1          2.5 | imseperr2           -2.5 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+impa                150.9 | impaerr1           1.2 | impaerr2            -1.2 | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imtelescope	     VLT:Antu |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument         NACO |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	     27-06-2013 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		            0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			            0 |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			                1 |\ # "ns", number of stars constituting the host system
+ra                    TBD |\ # RA [decimal]
+dec                   TBD |\ # Dec [decimal]
+glon                  TBD |\ # "l" [decimal]
+glat                  TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+implnlpmag           16.3 | implnlpmagerr      1.1 | implnlpmaglim          0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
+#
+# Stellar Parameter Columns
+#
+image		               17 | imageerr1	           4 | imageerr2	           -4 | imagelim	       0 |\ # "image", stellar age [My]
+#
+# Model Columns
+#
+implmass                5 | implmasserr1          2 | implmasserr2         -2 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp             1000 | impltemperr1        200 | impltemperr2       -200 | impltemplim      0 |\ # "impltemp", planet temp [K]
+immodel		          	BT-Settl (Allard et al. 2012) |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+imnotes                  L' filter used; Apparent planetary magnitude calculated from absolute magnitude |\ # "imnotes"
+#
+cntr                  TBD |  # counter
