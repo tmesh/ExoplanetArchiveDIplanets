@@ -27,7 +27,7 @@ impa                150.6 | impaerr1           1.7 | impaerr2            -1.7 | 
 imdist                    | imdisterr1             | imdisterr2               | imdistlim        0 |\  # "imdist", distance to star [pc]
 imtelescope	 Gemini:South |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument          GPI |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	                |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imdateobs	     2013-12-11 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	                |\ # "imcluster", name of associated cluster
 imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		            1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
@@ -65,11 +65,11 @@ implstype		              |\ # "implstype", planet spectral type
 implmass                5 | implmasserr1          2 | implmasserr2         -2 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                  | impltemperr1            | impltemperr2            | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                | implradiuserr1          | implradiuserr2          | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel		         BT-Settl (Allard et al. 2012), LESIA (Baudino et al. 2014) |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodel		         BT-Settl (Allard et al. 2012), Lesia (Baudino et al. 2014) |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes                  H filter used |\ # "imnotes"
+imnotes                  hot-start models |\ # "imnotes"
 #
 cntr                  TBD |  # counter
