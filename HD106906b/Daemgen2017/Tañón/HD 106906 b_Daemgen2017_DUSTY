@@ -51,6 +51,6 @@ immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes                  Masses derived when assuming a 3 Myr formation timescale |\ # "imnotes"
+imnotes                   |\ # "imnotes"
 #
 cntr                  TBD |  # counter
