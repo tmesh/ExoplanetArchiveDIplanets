@@ -1,6 +1,6 @@
 # USER:            tanon
 # DESCRIPTION:     Direct Imaging Table Update
-# FILENAME:        HD 106906 b_Daemgen2017.dat
+# FILENAME:        HD 106906 b_Daemgen2017_hot-start.dat
 # DATE:            2020-05-11
 #                                    
 # Addition of direct imaging values
@@ -21,7 +21,7 @@ imdeltjmag                | imdeltjmagerr	         | imdeltjmaglim              
 imdelthmag                | imdelthmagerr	         | imdelthmaglim                               0 |\	 # "imdelthmag", planet-host magnitude difference [mag]
 imdeltkmag                | imdeltkmagerr	         | imdeltkmaglim                               0 |\	 # "imdeltkmag", planet-host magnitude difference [mag]
 imdeltlpmag               | imdeltlpmagerr	       | imdeltlpmaglim                              0 |\	 # "imdeltlpmag", planet-host magnitude difference [mag]
-imangsep                  | imangseperr1           | imangseperr2             | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imangsep              7.1 | imangseperr1      null | imangseperr2             | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                     | imseperr1              | imseperr2                | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
 impa                      | impaerr1               | impaerr2                 | impalim          0 |\  # "impa", star-planet position angle [deg] 
 imdist                    | imdisterr1             | imdisterr2               | imdistlim        0 |\  # "imdist", distance to star [pc]
@@ -30,7 +30,7 @@ iminstrument  UT4 SINFONI |\ # "iminstrument", Instrument used in observations #
 imdateobs	                |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	                |\ # "imcluster", name of associated cluster
 imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
-imcorona		              |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imcorona		            0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
 imifu 			            1 |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
@@ -57,13 +57,13 @@ implnlpmag                | implnlpmagerr          | implnlpmaglim          0 |\
 imstype			              |\ # "imstype", stellar host spectral type
 immass                    | immasserr1             | immasserr2               | immasslim        0 |\ # "immass", stellar host [solar mass]
 imlum                     | imlumerr1              | imlumerr2                | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
-image		                  | imageerr1	             | imageerr2	              | imagelim	       0 |\ # "image", stellar age [My]
+image		               13 | imageerr1	           2 | imageerr2	           -2 | imagelim	       0 |\ # "image", stellar age [My]
 #
 # Model Columns
 #
-implstype		              |\ # "implstype", planet spectral type
-implmass                  | implmasserr1            | implmasserr2            | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
-impltemp     1820 | impltemperr1           240 | impltemperr2           -240 | impltemplim      0 |\ # "impltemp", planet temp [K]
+implstype		    L1.5± 1.0 |\ # "implstype", planet spectral type
+implmass             11.9 | implmasserr1        1.7 | implmasserr2       −0.8 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp             1820 | impltemperr1        240 | impltemperr2       -240 | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                | implradiuserr1          | implradiuserr2          | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
 immodel		          	    |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
