@@ -1,0 +1,56 @@
+# USER:            tanon
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        HD 106906 b_Daemgen2017_DUSTY.dat
+# DATE:            2020-05-11
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for planet
+imreflink     2017A&A...608A..71D |\ # "imreflink, ADS bibcode
+imrefid			                TBD   |\ # refid for paper
+#
+# Default Columns
+#
+plntname             HD 106906 b |\ # planet name
+ra_str               12:17:53.19 |\ # RA [sexagesimal]
+dec_str              -55:58:31.9 |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imangsep              7.1 | imangseperr1      null | imangseperr2        null | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imdist             102.8  | imdisterr1        2.5  | imdisterr2         -2.5  | imdistlim        0 |\  # "imdist", distance to star [pc]
+imtelescope	    VLT:Yepun |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument  UT4 SINFONI |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	               2014-12-31, 2015-01-23, 2015-02-23, 2015-02-26, 2015-03-05 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		            0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			            1 |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			                1 |\ # "ns", number of stars constituting the host system
+ra                    TBD |\ # RA [decimal]
+dec                   TBD |\ # Dec [decimal]
+glon                  TBD |\ # "l" [decimal]
+glat                  TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+#
+# Stellar Parameter Columns
+#
+image		               13 | imageerr1	           2 | imageerr2	           -2 | imagelim	       0 |\ # "image", stellar age [My]
+#
+# Model Columns
+#
+implstype		    L1.5± 1.0 |\ # "implstype", planet spectral type
+implmass             12.3 | implmasserr1        0.9 | implmasserr2       −0.8 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp             1820 | impltemperr1        240 | impltemperr2       -240 | impltemplim      0 |\ # "impltemp", planet temp [K]
+immodel		          	  DUSTY (Chabrier et al.2000) |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+imnotes                  Masses derived when assuming a 3 Myr formation timescale |\ # "imnotes"
+#
+cntr                  TBD |  # counter
