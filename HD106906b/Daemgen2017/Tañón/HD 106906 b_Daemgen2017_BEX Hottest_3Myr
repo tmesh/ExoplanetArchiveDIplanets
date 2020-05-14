@@ -51,6 +51,6 @@ immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes                  Masses derived when assuming a 3 Myr formation timescale |\ # "imnotes"
+imnotes                  Planetary mass derived assuming a planetary age 3Myr younger than the stellar age |\ # "imnotes"
 #
 cntr                  TBD |  # counter
