@@ -1,6 +1,6 @@
 # USER:            tanon
 # DESCRIPTION:     Direct Imaging Table Update
-# FILENAME:        PDS 70 b_Müller2018.dat
+# FILENAME:        PDS 70 b_Müller2018_BT-Settl.dat
 # DATE:            2020-04-22
 #                                    
 # Addition of direct imaging values
@@ -17,14 +17,11 @@ dec_str             -41:23:52.58 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdeltjmag                | imdeltjmagerr	         | imdeltjmaglim                               0 |\			# "imdeltjmag", planet-host magnitude difference [mag]
-imdelthmag                | imdelthmagerr	         | imdelthmaglim                               0 |\			# "imdelthmag", planet-host magnitude difference [mag]
-imdeltkmag                | imdeltkmagerr	         | imdeltkmaglim                               0 |\			# "imdeltkmag", planet-host magnitude difference [mag]
-imdeltlpmag               | imdeltlpmagerr	       | imdeltlpmaglim                              0 |\			# "imdeltlpmag", planet-host magnitude difference [mag]
-imangsep                  | imangseperr1           | imangseperr2             | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imdeltkmag           8.10 | imdeltkmagerr	    0.05 | imdeltkmaglim                               0 |\			# "imdeltkmag", planet-host magnitude difference [mag]
+imangsep           0.1921 | imangseperr1    0.0079 | imangseperr2     -0.0079 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                22.2 | imseperr1          6.2 | imseperr2           −9.7 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
-impa                158.6 | impaerr1          null | impaerr2            null | impalim          0 |\  # "impa", star-planet position angle [deg] 
-imdist                    | imdisterr1             | imdisterr2               | imdistlim        0 |\  # "imdist", distance to star [pc]
+impa                147.0 | impaerr1           2.4 | impaerr2            -2.4 | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imdist             113.43 | imdisterr1        0.52 | imdisterr2         -0.52 | imdistlim        0 |\  # "imdist", distance to star [pc]
 imtelescope	   		                  VLT:Melipal |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument        		           SPHERE/IRDIS |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	      		               	 2018-02-24 |\ # "imdateobs", [YYYY-MM-DD] ##added this
@@ -43,29 +40,18 @@ glat                  TBD |\ # "b" [decimal]
 #
 # Photometry Columns
 #
-imjmag                    | imjmagerr              | imjmaglim               0 |\ # "imjmag", stellar magnitude J-band [mag]
-imhmag                    | imhmagerr              | imhmaglim               0 |\ # "imhmag", stellar magnitude H-band [mag]
-imkmag                    | imkmagerr              | imkmaglim               0 |\ # "imkmag", stellar magnitude K-band [mag]
-imlpmag                   | imlpmagerr             | imlpmaglim              0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
-implnjmag                 | implnjmagerr           | implnjmaglim            0 |\ # "implnjmag", planet magnitude J-band [mag]
-implnhmag                 | implnhmagerr           | implnhmaglim            0 |\ # "implnhmag", planet magnitude H-band [mag]
-implnkmag                 | implnkmagerr           | implnkmaglim            0 |\ # "implnkmag", planet magnitude K-band [mag]
-implnlpmag                | implnlpmagerr          | implnlpmaglim           0 |\ # "implnlpmag", planet magnitude Lp-band [mag]
 #
 # Stellar Parameter Columns
 #
-imstype			              |\ # "imstype", stellar host spectral type
 immass               0.76 | immasserr1        0.02 | immasserr2          0.02 | immasslim        0 |\ # "immass", stellar host [solar mass]
-imlum                     | imlumerr1              | imlumerr2                | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
 image		              5.4 | imageerr1	         1.0 | imageerr2	          1.0 | imagelim	       0 |\ # "image", stellar age [My]
 #
 # Model Columns
 #
-implstype		              |\ # "implstype", planet spectral type
 implmass              2.4 | implmasserr1       null | implmasserr2       null | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp             1590 | impltemperr1       null | impltemperr2       null | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius            1.4 | implradiuserr1     null | implradiuserr2     null | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel		       BT-Settl |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodel		       BT-Settl (Allard et al. 2014, Baraffe et al. 2015) |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
