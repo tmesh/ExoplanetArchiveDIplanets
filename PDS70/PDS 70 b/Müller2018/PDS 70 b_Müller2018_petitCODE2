@@ -1,0 +1,62 @@
+# USER:            tanon
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        PDS 70 b_Müller2018_petitCODE2.dat
+# DATE:            2020-04-22
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for planet
+imreflink     2018A&A...617L...2M |\ # "imreflink, ADS bibcode
+imrefid			                TBD   |\ # refid for paper
+#
+# Default Columns
+#
+plntname                PDS 70 b |\ # planet name
+ra_str                4:08:10.16 |\ # RA [sexagesimal]
+dec_str             -41:23:52.58 |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imdeltkmag           8.10 | imdeltkmagerr	    0.05 | imdeltkmaglim                               0 |\			# "imdeltkmag", planet-host magnitude difference [mag]
+imangsep           0.1921 | imangseperr1    0.0079 | imangseperr2     -0.0079 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                22.2 | imseperr1          6.2 | imseperr2           −9.7 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+impa                147.0 | impaerr1           2.4 | impaerr2            -2.4 | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imdist             113.43 | imdisterr1        0.52 | imdisterr2         -0.52 | imdistlim        0 |\  # "imdist", distance to star [pc]
+imtelescope	   		                  VLT:Melipal |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument        		           SPHERE/IRDIS |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	      		               	 2018-02-24 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	  Sco OB2/Upper Centaurus-Lupus (UCL) |\ # "imcluster", name of associated cluster
+imdisk 		             		                    1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		            		                  1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			          		                    1 |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			                1 |\ # "ns", number of stars constituting the host system
+ra                    TBD |\ # RA [decimal]
+dec                   TBD |\ # Dec [decimal]
+glon                  TBD |\ # "l" [decimal]
+glat                  TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+#
+# Stellar Parameter Columns
+#
+immass               0.76 | immasserr1        0.02 | immasserr2          0.02 | immasslim        0 |\ # "immass", stellar host [solar mass]
+image		              5.4 | imageerr1	         1.0 | imageerr2	          1.0 | imagelim	       0 |\ # "image", stellar age [My]
+#
+# Model Columns
+#
+implmass              1.9 | implmasserr1       null | implmasserr2       null | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp             1100 | impltemperr1       null | impltemperr2       null | impltemplim      0 |\ # "impltemp", planet temp [K]
+implradius            3.3 | implradiuserr1     null | implradiuserr2     null | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
+immodel		       petitCODE (Mollière et al. 2015, 2017) |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+imnotes               Model adds scattering |\ # "imnotes"
+#
+cntr                  TBD |  # counter
+
