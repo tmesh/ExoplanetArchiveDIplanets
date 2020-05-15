@@ -1,0 +1,54 @@
+# USER:            tanon
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        HIP78530b_Pecaut2012.dat
+# DATE:            2020-05-15
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for planet
+imreflink     2012ApJ...746..154P |\ # "imreflink, ADS bibcode
+imrefid			                TBD   |\ # refid for paper
+#
+# Default Columns
+#
+plntname             HIP 78530 b |\ # planet name
+ra_str               16:01:55.46 |\ # RA [sexagesimal]
+dec_str              -21:58:49.4 |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imdist       145 | imdisterr1        null | imdisterr2          null | imdistlim        0 |\  # "imdist", distance to star [pc]
+imtelescope	                    CTIO:1.5m |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument                       SMARTS |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs  2009-02-01 through 2009-05-31  |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	    Sco OB2/Upper Scorpius (US) |\ # "imcluster", name of associated cluster
+imdisk 		                              0 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		                            0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			                            0 |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			                1 |\ # "ns", number of stars constituting the host system
+ra                    TBD |\ # RA [decimal]
+dec                   TBD |\ # Dec [decimal]
+glon                  TBD |\ # "l" [decimal]
+glat                  TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+#
+# Stellar Parameter Columns
+#
+image		               11 | imageerr1	           2 | imageerr2	           -2 | imagelim	       0 |\ # "image", stellar age [My]
+#
+# Model Columns
+#
+implmass              30 | implmasserr1         17 | implmasserr2         -17 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+immodel		          	      DUSTY (Chabrier et al. 2000, Baraffe et al. 2002) |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+imnotes                   |\ # "imnotes"
+#
+cntr                  TBD |  # counter
