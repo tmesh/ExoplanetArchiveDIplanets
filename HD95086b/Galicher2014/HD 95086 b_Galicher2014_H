@@ -47,7 +47,7 @@ image		               17 | imageerr1	           4 | imageerr2	           -4 | im
 # Model Columns
 #
 impltemp             1050 | impltemperr1        450 | impltemperr2       −450 | impltemplim      0 |\ # "impltemp", planet temp [K]
-immodel		         BT-Settl (Allard et al. 2012), Lesia (Baudino et al. 2014) |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodel		         BT-Settl (Allard et al. 2012) |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
