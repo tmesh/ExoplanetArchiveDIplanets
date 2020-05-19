@@ -1,0 +1,57 @@
+# USER:            tanon
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        HD 95086 b_Galicher2014_K1_BT-Settl.dat
+# DATE:            2020-05-07
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for planet
+imreflink     2014A&A...565L...4G |\ # "imreflink, ADS bibcode
+imrefid			                TBD   |\ # refid for paper
+#
+# Default Columns
+#
+plntname              HD 95086 b |\ # planet name
+ra_str               10:57:03.02 |\ # RA [sexagesimal]
+dec_str              -68:40:02.4 |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imdeltkmag           12.1 | imdeltkmagerr	     0.5 | imdeltkmaglim                               0 |\	 # "imdeltkmag", planet-host magnitude difference [mag]
+imangsep            0.623 | imangseperr1     0.015 | imangseperr2      -0.015 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+impa                151.4 | impaerr1           1.5 | impaerr2            -1.5 | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imtelescope			                 Gemini:South |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument      		                    GPI |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	    		                 2013-12-10 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	 Sco OB2/Lower Centaurus-Crux (LCC) |\ # "imcluster", name of associated cluster
+imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		            1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			            1 |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			                1 |\ # "ns", number of stars constituting the host system
+ra                    TBD |\ # RA [decimal]
+dec                   TBD |\ # Dec [decimal]
+glon                  TBD |\ # "l" [decimal]
+glat                  TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+imkmag              18.89 | imkmagerr         0.51 | imkmaglim              0 |\ # "imkmag", stellar magnitude K-band [mag]
+#
+# Stellar Parameter Columns
+#
+image		               17 | imageerr1	           4 | imageerr2	           -4 | imagelim	       0 |\ # "image", stellar age [My]
+#
+# Model Columns
+#
+impltemp             1050 | impltemperr1        450 | impltemperr2       −450 | impltemplim      0 |\ # "impltemp", planet temp [K]
+immodel		         BT-Settl (Allard et al. 2012) |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+imnotes                  K1 filter used; hot-start models |\ # "imnotes"
+#
+cntr                  TBD |  # counter
