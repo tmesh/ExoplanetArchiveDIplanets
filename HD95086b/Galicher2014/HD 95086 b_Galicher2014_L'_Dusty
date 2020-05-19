@@ -48,7 +48,7 @@ image		               17 | imageerr1	           4 | imageerr2	           -4 | im
 #
 implmass              4.5 | implmasserr1          1 | implmasserr2         -1 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp              916 | impltemperr1         43 | impltemperr2        −44 | impltemplim      0 |\ # "impltemp", planet temp [K]
-immodel		                     DUSTY (Barman et al. 2011, Currie et al. 2011) |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodel		                  DUSTY (Baraffe et al. 2003, Chabrier et al. 2000) |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
