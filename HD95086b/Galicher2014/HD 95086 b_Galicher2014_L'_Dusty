@@ -1,0 +1,58 @@
+# USER:            tanon
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        HD 95086 b_Galicher2014_L'_Dusty.dat
+# DATE:            2020-05-19
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for planet
+imreflink     2014A&A...565L...4G |\ # "imreflink, ADS bibcode
+imrefid			                TBD   |\ # refid for paper
+#
+# Default Columns
+#
+plntname              HD 95086 b |\ # planet name
+ra_str               10:57:03.02 |\ # RA [sexagesimal]
+dec_str              -68:40:02.4 |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imdeltlpmag          9.48 | imdeltlpmagerr	  0.19 | imdeltlpmaglim                              0 |\	 # "imdeltlpmag", planet-host magnitude difference [mag]
+imangsep           0.6239 | imangseperr1     0.074 | imangseperr2      -0.074 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+impa                151.8 | impaerr1           0.8 | impaerr2            -0.8 | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imtelescope			                     VLT:Antu |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument      		                   NACO |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	    		                 2012-01-11 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	 Sco OB2/Lower Centaurus-Crux (LCC) |\ # "imcluster", name of associated cluster
+imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		            0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			            0 |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			                1 |\ # "ns", number of stars constituting the host system
+ra                    TBD |\ # RA [decimal]
+dec                   TBD |\ # Dec [decimal]
+glon                  TBD |\ # "l" [decimal]
+glat                  TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+imlpmag             16.22 | imlpmagerr        0.23 | imlpmaglim             0 |\ # "imlpmag", stellar magnitude Lp-band [mag]
+#
+# Stellar Parameter Columns
+#
+image		               17 | imageerr1	           4 | imageerr2	           -4 | imagelim	       0 |\ # "image", stellar age [My]
+#
+# Model Columns
+#
+implmass              4.5 | implmasserr1          1 | implmasserr2         -1 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp              916 | impltemperr1         43 | impltemperr2        −44 | impltemplim      0 |\ # "impltemp", planet temp [K]
+immodel		                     DUSTY (Barman et al. 2011, Currie et al. 2011) |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+imnotes                  L' filter used; hot-start models |\ # "imnotes"
+#
+cntr                  TBD |  # counter
