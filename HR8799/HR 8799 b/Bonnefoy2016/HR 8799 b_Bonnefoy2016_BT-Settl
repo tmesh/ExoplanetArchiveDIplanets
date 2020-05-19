@@ -1,6 +1,6 @@
 # USER:            tanon
 # DESCRIPTION:     Direct Imaging Table Update
-# FILENAME:        HR 8799 b_Bonnefoy2016.dat
+# FILENAME:        HR 8799 b_Bonnefoy2016_BT-Settl.dat
 # DATE:            2020-04-24
 #                                    
 # Addition of direct imaging values
@@ -17,10 +17,7 @@ dec_str              +21:08:03.3 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imangsep                  | imangseperr1           | imangseperr2             | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
-imsep                     | imseperr1              | imseperr2                | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
-impa                      | impaerr1               | impaerr2                 | impalim          0 |\  # "impa", star-planet position angle [deg] 
-imdist                    | imdisterr1             | imdisterr2               | imdistlim        0 |\  # "imdist", distance to star [pc]
+imdist               39.4 | imdisterr1         1.0 | imdisterr2          -1.0 | imdistlim        0 |\  # "imdist", distance to star [pc]
 imtelescope	  VLT:Melipal |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument       SPHERE |\ # "iminstrument", Instrument used in observations ##added this
 imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
@@ -43,13 +40,13 @@ glat                  TBD |\ # "b" [decimal]
 #
 # Model Columns
 #
-impltemp                  | impltemperr1            | impltemperr2            | impltemplim      0 |\ # "impltemp", planet temp [K]
-implradius                | implradiuserr1          | implradiuserr2          | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
-immodel		 BT-Settl (Allard et al. 2014, Baraffe et al. 2015), Exo-REM (Baudino et al. 2015), Cloud AE-60 (Madhusudhan et al. 2011) |\ # "immodel", description of model ##Reference that the model is drawn from.
+impltemp             1300 | impltemperr1       null | impltemperr2       null | impltemplim      0 |\ # "impltemp", planet temp [K]
+implradius            0.4 | implradiuserr1     null | implradiuserr2     null | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
+immodel		 BT-Settl (Allard et al. 2014, Baraffe et al. 2015) |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes                   |\ # "imnotes"
+imnotes                  Temperature and radius values using chi squared metric |\ # "imnotes"
 #
 cntr                  TBD |  # counter
