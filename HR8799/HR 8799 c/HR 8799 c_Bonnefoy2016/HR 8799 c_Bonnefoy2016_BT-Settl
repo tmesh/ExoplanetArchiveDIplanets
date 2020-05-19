@@ -1,0 +1,52 @@
+# USER:            tanon
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        HR 8799 c_Bonnefoy2016_BT-Settl.dat
+# DATE:            2020-04-24
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for planet
+imreflink     2016A&A...587A..58B |\ # "imreflink, ADS bibcode
+imrefid			                TBD   |\ # refid for paper
+#
+# Default Columns
+#
+plntname               HR 8799 c |\ # planet name
+ra_str               23:07:28.72 |\ # RA [sexagesimal]
+dec_str              +21:08:03.3 |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imdist               39.4 | imdisterr1         1.0 | imdisterr2          -1.0 | imdistlim        0 |\  # "imdist", distance to star [pc]
+imtelescope	  VLT:Melipal |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument       SPHERE |\ # "iminstrument", Instrument used in observations ##added this
+imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		            0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			            0 |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			                1 |\ # "ns", number of stars constituting the host system
+ra                    TBD |\ # RA [decimal]
+dec                   TBD |\ # Dec [decimal]
+glon                  TBD |\ # "l" [decimal]
+glat                  TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+#
+# Stellar Parameter Columns
+#
+#
+# Model Columns
+#
+impltemp             1350 | impltemperr1       null | impltemperr2       null | impltemplim      0 |\ # "impltemp", planet temp [K]
+implradius            0.7 | implradiuserr1     null | implradiuserr2     null | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
+immodel		 BT-Settl (Allard et al. 2014, Baraffe et al. 2015) |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+imnotes                  Temperature and radius values using chi squared metric |\ # "imnotes"
+#
+cntr                  TBD |  # counter
