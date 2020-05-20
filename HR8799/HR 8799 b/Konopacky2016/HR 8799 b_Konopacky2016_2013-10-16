@@ -1,0 +1,53 @@
+# USER:            tanon
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        HR 8799 b_Konopacky2016_2013-10-16.dat
+# DATE:            2020-05-19
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for planet
+imreflink     2016AJ....152...28K |\ # "imreflink, ADS bibcode
+imrefid			                TBD   |\ # refid for paper
+#
+# Default Columns
+#
+plntname               HR 8799 b |\ # planet name
+ra_str               23:07:28.72 |\ # RA [sexagesimal]
+dec_str              +21:08:03.3 |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imangsep            1.706 | imangseperr1     0.031 | imangseperr2      -0.031 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+impa               64.892 | impaerr1         1.337 | impaerr2          -1.337 | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imdist               39.4 | imdisterr1        null | imdisterr2          null | imdistlim        0 |\  # "imdist", distance to star [pc]
+imtelescope	      Keck:II |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument        NIRC2 |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	     2013-10-16 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		            1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			            0 |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			                1 |\ # "ns", number of stars constituting the host system
+ra                    TBD |\ # RA [decimal]
+dec                   TBD |\ # Dec [decimal]
+glon                  TBD |\ # "l" [decimal]
+glat                  TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+#
+# Stellar Parameter Columns
+#
+#
+# Model Columns
+#
+implmass                5 | implmasserr1       null | implmasserr2       null | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+imnotes                  Coronagraph only used for K-band observations |\ # "imnotes"
+#
+cntr                  TBD |  # counter
