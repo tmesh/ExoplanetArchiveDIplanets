@@ -1,0 +1,56 @@
+# USER:            tanon
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        2MASS J12073346-3932539 b_Ducourant2008_warm_pln.dat
+# DATE:            2020-05-20
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for planet
+imreflink     2008A&A...477L...1D |\ # "imreflink, ADS bibcode
+imrefid			                TBD   |\ # refid for paper
+#
+# Default Columns
+#
+plntname  2MASS J12073346-3932539 b |\ # planet name
+ra_str                  12:07:33.47 |\ # RA [sexagesimal]
+dec_str                 -39:32:54.0 |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imdist               52.4 | imdisterr1         1.1 | imdisterr2          -1.1 | imdistlim        0 |\  # "imdist", distance to star [pc]
+imtelescope	     	               	                 NTT |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument  	                                 SUSI2 |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	               2006-01-01 through 2007-05-31 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	         TW Hya |\ # "imcluster", name of associated cluster
+imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		            0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			            0 |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			                1 |\ # "ns", number of stars constituting the host system
+ra                    TBD |\ # RA [decimal]
+dec                   TBD |\ # Dec [decimal]
+glon                  TBD |\ # "l" [decimal]
+glat                  TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+implnkmag            14.8 | implnkmagerr      0.3 | implnkmaglim           0 |\ # "implnkmag", planet magnitude K-band [mag]
+#
+# Stellar Parameter Columns
+#
+image		                8 | imageerr1	        null | imageerr2	         null | imagelim	       0 |\ # "image", stellar age [My]
+#
+# Model Columns
+#
+implmass                8 | implmasserr1          2 | implmasserr2         -2 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp             1600 | impltemperr1        100 | impltemperr2       -100 | impltemplim      0 |\ # "impltemp", planet temp [K]
+immodel		      DUSTY (Chabrier et al. 2000), COND03 (Baraffe et al. 2003) |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+imnotes                  Ks filter used |\ # "imnotes"
+#
+cntr                  TBD |  # counter
