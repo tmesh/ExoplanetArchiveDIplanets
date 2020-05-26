@@ -27,7 +27,7 @@ imdateobs	     2010-12-25 |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	        bet Pic |\ # "imcluster", name of associated cluster
 imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		            0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
-imifu 			            0 |\ # "imifu", IFU used (1=yes, 0=no)
+imifu 			            1 |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
 #
