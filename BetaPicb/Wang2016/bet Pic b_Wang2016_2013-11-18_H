@@ -1,0 +1,53 @@
+# USER:            tanon
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        bet Pic b_Wang2016_2013-11-18_H.dat
+# DATE:            2020-05-27
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for planet
+imreflink     2016AJ....152...97W |\ # "imreflink, ADS bibcode
+imrefid			                TBD   |\ # refid for paper
+#
+# Default Columns
+#
+plntname               bet Pic b |\ # planet name
+ra_str               05:47:17.08 |\ # RA [sexagesimal]
+dec_str              -51:03:59.4 |\ # Dec [sexagesimal]
+#
+# Imaging Columns 
+#
+imangsep           0.4306 | imangseperr1     0.008 | imangseperr2      -0.008 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+impa                212.1 | impaerr1           0.2 | impaerr2            -0.2 | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imdist               19.3 | imdisterr1        null | imdisterr2          null | imdistlim        0 |\  # "imdist", distance to star [pc]
+imtelescope	 Gemini:South |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument          GPI |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	     2013-11-18 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	        bet Pic |\ # "imcluster", name of associated cluster
+imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		            1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			            1 |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			                1 |\ # "ns", number of stars constituting the host system
+ra                    TBD |\ # RA [decimal]
+dec                   TBD |\ # Dec [decimal]
+glon                  TBD |\ # "l" [decimal]
+glat                  TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+#
+# Stellar Parameter Columns
+#
+#
+# Model Columns
+#
+immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+imnotes                H filter used |\ # "imnotes"
+#
+cntr                  TBD |  # counter
