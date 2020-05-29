@@ -1,19 +1,19 @@
 # USER:            tanon
 # DESCRIPTION:     Direct Imaging Table Update
-# FILENAME:        INSERT DAT FILE NAME.dat
-# DATE:            YYYY-MM-DD
+# FILENAME:        bet Pic b_Wang2016_2013-11-16.dat
+# DATE:            2020-05-27
 #                                    
 # Addition of direct imaging values
 #                                    
 objectid                    TBD   |\ # objectID for planet
-imreflink                         |\ # "imreflink, ADS bibcode
+imreflink     2016AJ....152...97W |\ # "imreflink, ADS bibcode
 imrefid			                TBD   |\ # refid for paper
 #
 # Default Columns
 #
-plntname                         |\ # planet name
-ra_str                           |\ # RA [sexagesimal]
-dec_str                          |\ # Dec [sexagesimal]
+plntname               bet Pic b |\ # planet name
+ra_str               05:47:17.08 |\ # RA [sexagesimal]
+dec_str              -51:03:59.4 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
@@ -24,18 +24,18 @@ imdeltlpmag               | imdeltlpmagerr	       | imdeltlpmaglim              
 imangsep                  | imangseperr1           | imangseperr2             | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
 imsep                     | imseperr1              | imseperr2                | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
 impa                      | impaerr1               | impaerr2                 | impalim          0 |\  # "impa", star-planet position angle [deg] 
-imdist                    | imdisterr1             | imdisterr2               | imdistlim        0 |\  # "imdist", distance to star [pc]
-imtelescope	              |\ # "imtelescope", Telescope used in observations ##added this
-iminstrument              |\ # "iminstrument", Instrument used in observations ##added this
-imdateobs	                |\ # "imdateobs", [YYYY-MM-DD] ##added this
-imcluster	                |\ # "imcluster", name of associated cluster
-imdisk 		                |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
-imcorona		              |\ # "imcorona", Coronagraph used (1=yes, 0=no)
-imifu 			              |\ # "imifu", IFU used (1=yes, 0=no)
+imdist               19.3 | imdisterr1        null | imdisterr2          null | imdistlim        0 |\  # "imdist", distance to star [pc]
+imtelescope	 Gemini:South |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument          GPI |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	     2013-11-16 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	        bet Pic |\ # "imcluster", name of associated cluster
+imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		            1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			            1 |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
 #
-ns			                  |\ # "ns", number of stars constituting the host system
+ns			                1 |\ # "ns", number of stars constituting the host system
 ra                    TBD |\ # RA [decimal]
 dec                   TBD |\ # Dec [decimal]
 glon                  TBD |\ # "l" [decimal]
@@ -70,6 +70,6 @@ immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes                   |\ # "imnotes"
+imnotes                K1 filter used |\ # "imnotes"
 #
 cntr                  TBD |  # counter
