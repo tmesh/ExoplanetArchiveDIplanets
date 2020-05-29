@@ -15,7 +15,7 @@ plntname               bet Pic b |\ # planet name
 ra_str               05:47:17.08 |\ # RA [sexagesimal]
 dec_str              -51:03:59.4 |\ # Dec [sexagesimal]
 #
-# Imaging Columns   317.2 ± 0.9   
+# Imaging Columns      
 #
 imangsep           0.3172 | imangseperr1     0.009 | imangseperr2      -0.009 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
 impa                212.9 | impaerr1           0.2 | impaerr2            -0.2 | impalim          0 |\  # "impa", star-planet position angle [deg] 
