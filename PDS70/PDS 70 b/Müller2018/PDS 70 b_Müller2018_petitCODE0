@@ -28,7 +28,7 @@ imdateobs	      		               	 2018-02-24 |\ # "imdateobs", [YYYY-MM-DD] ##a
 imcluster	  Sco OB2/Upper Centaurus-Lupus (UCL) |\ # "imcluster", name of associated cluster
 imdisk 		             		                    1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		            		                  1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
-imifu 			          		                    1 |\ # "imifu", IFU used (1=yes, 0=no)
+imifu 			          		                    0 |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
 #
