@@ -43,7 +43,7 @@ image		               11 | imageerr1	           2 | imageerr2	           -2 | im
 #
 # Model Columns
 #
-implmass              30 | implmasserr1         17 | implmasserr2         -17 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+implmass              30 | implmasserr1         17 | implmasserr2          -8 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 immodel		          	      DUSTY (Chabrier et al. 2000, Baraffe et al. 2002) |\ # "immodel", description of model ##Reference that the model is drawn from.
 immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
 #
