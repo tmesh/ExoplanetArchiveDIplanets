@@ -17,7 +17,7 @@ dec_str              -21:58:49.4 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
-imdist       145 | imdisterr1        null | imdisterr2          null | imdistlim        0 |\  # "imdist", distance to star [pc]
+imdist                                157 | imdisterr1        13 | imdisterr2          -13 | imdistlim        0 |\  # "imdist", distance to star [pc]
 imtelescope	                    CTIO:1.5m |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument                       SMARTS |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs  2009-02-01 through 2009-05-31  |\ # "imdateobs", [YYYY-MM-DD] ##added this
