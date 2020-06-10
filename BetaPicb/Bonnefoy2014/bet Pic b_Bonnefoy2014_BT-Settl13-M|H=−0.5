@@ -1,0 +1,61 @@
+# USER:            tanon
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        bet Pic b_Bonnefoy2014_BT-Settl13-M|H=−0.5.dat
+# DATE:            2020-06-01
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for planet
+imreflink    2014A&A...567L...9B  |\ # "imreflink, ADS bibcode
+imrefid			                TBD   |\ # refid for paper
+#
+# Default Columns
+#
+plntname               bet Pic b |\ # planet name
+ra_str               05:47:17.08 |\ # RA [sexagesimal]
+dec_str              -51:03:59.4 |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imangsep            0.430 | imangseperr1     0.010 | imangseperr2      -0.010 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                 8.9 | imseperr1          0.4 | imseperr2           −0.6 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+impa                211.6 | impaerr1           1.3 | impaerr2            -1.3 | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imtelescope	 Gemini:South |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument          GPI |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	     2013-12-10 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	        bet Pic |\ # "imcluster", name of associated cluster
+imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		            1 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			            1 |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			                1 |\ # "ns", number of stars constituting the host system
+ra                    TBD |\ # RA [decimal]
+dec                   TBD |\ # Dec [decimal]
+glon                  TBD |\ # "l" [decimal]
+glat                  TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+implnjmag            14.1 | implnjmagerr       0.3 | implnjmaglim           0 |\ # "implnjmag", planet magnitude J-band [mag]
+#
+# Stellar Parameter Columns
+#
+immass               1.75 | immasserr1        0.05 | immasserr2         -0.05 | immasslim        0 |\ # "immass", stellar host [solar mass]imlum                     | imlumerr1              | imlumerr2                | imlumlim         0 |\ # "imlum", stellar host [solar luminosity]
+image		               21 | imageerr1	           4 | imageerr2	           -4 | imagelim	       0 |\ # "image", stellar age [My]
+#
+# Model Columns
+#
+implstype		  L1(+1,−1.5) |\ # "implstype", planet spectral type
+implmass               34 | implmasserr1         86 | implmasserr2        -24 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+impltemp             1500 | impltemperr1       null | impltemperr2       null | impltemplim      0 |\ # "impltemp", planet temp [K]
+implradius            1.4 | implradiuserr1      0.2 | implradiuserr2     −0.1 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
+immodel		            BT-Settl13 (Witte et al. 2011, Bonnefoy et al. 2013, Manjavacas et al. 2014) |\ # "immodel", description of model ##Reference that the model is drawn from.
+immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+imnotes                   |\ # "imnotes"
+#
+cntr                  TBD |  # counter
