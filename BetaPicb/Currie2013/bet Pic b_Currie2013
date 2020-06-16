@@ -1,19 +1,19 @@
 # USER:            tanon
 # DESCRIPTION:     Direct Imaging Table Update
-# FILENAME:        INSERT DAT FILE NAME.dat
-# DATE:            YYYY-MM-DD
+# FILENAME:        bet Pic b_Currie2013.dat
+# DATE:            2020-06-08
 #                                    
 # Addition of direct imaging values
 #                                    
 objectid                    TBD   |\ # objectID for planet
-imreflink                         |\ # "imreflink, ADS bibcode
+imreflink     2013ApJ...776...15C |\ # "imreflink, ADS bibcode
 imrefid			                TBD   |\ # refid for paper
 #
 # Default Columns
 #
-plntname                         |\ # planet name
-ra_str                           |\ # RA [sexagesimal]
-dec_str                          |\ # Dec [sexagesimal]
+plntname               bet Pic b |\ # planet name
+ra_str               05:47:17.08 |\ # RA [sexagesimal]
+dec_str              -51:03:59.4 |\ # Dec [sexagesimal]
 #
 # Imaging Columns
 #
@@ -29,13 +29,13 @@ imtelescope	              |\ # "imtelescope", Telescope used in observations ##a
 iminstrument              |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	                |\ # "imdateobs", [YYYY-MM-DD] ##added this
 imcluster	                |\ # "imcluster", name of associated cluster
-imdisk 		                |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
 imcorona		              |\ # "imcorona", Coronagraph used (1=yes, 0=no)
 imifu 			              |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
 #
-ns			                  |\ # "ns", number of stars constituting the host system
+ns			                1 |\ # "ns", number of stars constituting the host system
 ra                    TBD |\ # RA [decimal]
 dec                   TBD |\ # Dec [decimal]
 glon                  TBD |\ # "l" [decimal]
@@ -62,7 +62,7 @@ image		                  | imageerr1	             | imageerr2	              | im
 # Model Columns
 #
 implstype		              |\ # "implstype", planet spectral type
-implmass                  | implmasserr1            | implmasserr2            | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
+implmass                7 | implmasserr1          4 | implmasserr2         −3 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp                  | impltemperr1            | impltemperr2            | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius                | implradiuserr1          | implradiuserr2          | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
 immodel		          	    |\ # "immodel", description of model ##Reference that the model is drawn from.
