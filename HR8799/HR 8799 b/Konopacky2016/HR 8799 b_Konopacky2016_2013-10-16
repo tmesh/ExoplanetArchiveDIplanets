@@ -19,7 +19,7 @@ dec_str              +21:08:03.3 |\ # Dec [sexagesimal]
 #
 imangsep            1.706 | imangseperr1     0.031 | imangseperr2      -0.031 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
 impa               64.892 | impaerr1         1.337 | impaerr2          -1.337 | impalim          0 |\  # "impa", star-planet position angle [deg] 
-imdist               39.4 | imdisterr1        null | imdisterr2          null | imdistlim        0 |\  # "imdist", distance to star [pc]
+imdist               39.4 | imdisterr1         1.1 | imdisterr2          -1.1 | imdistlim        0 |\  # "imdist", distance to star [pc]
 imtelescope	      Keck:II |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument        NIRC2 |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	     2013-10-16 |\ # "imdateobs", [YYYY-MM-DD] ##added this
