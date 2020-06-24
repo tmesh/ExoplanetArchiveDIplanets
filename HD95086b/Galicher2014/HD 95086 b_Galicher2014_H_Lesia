@@ -52,6 +52,6 @@ immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes                  hot-start models |\ # "imnotes"
+imnotes             Mass taken from the hot start models |\ # "imnotes"
 #
 cntr                  TBD |  # counter
