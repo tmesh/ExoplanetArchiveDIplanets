@@ -18,10 +18,10 @@ dec_str              +21:08:03.3 |\ # Dec [sexagesimal]
 # Imaging Columns
 #
 imdeltkmag           10.7 | imdeltkmagerr	        null | imdeltkmaglim                               0 |\	 # "imdeltkmag", planet-host magnitude difference [mag]
-imangsep            0.368 | imangseperr1     0.009 | imangseperr2      -0.009 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
-imsep                16.4 | imseperr1          2.1 | imseperr2           −1.1 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
-impa                   25 | impaerr1             8 | impaerr2              -8 | impalim          0 |\  # "impa", star-planet position angle [deg] 
-imdist               39.4 | imdisterr1         0.1 | imdisterr2           0.1 | imdistlim        0 |\  # "imdist", distance to star [pc]
+imangsep           0.3932 | imangseperr1        0.0002 | imangseperr2     -0.0002 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                16.4 | imseperr1              2.1 | imseperr2           −1.1 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+impa              65.4531 | impaerr1            0.0241 | impaerr2         -0.0241 | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imdist               39.4 | imdisterr1             0.1 | imdisterr2           0.1 | imdistlim        0 |\  # "imdist", distance to star [pc]
 imtelescope	         VLTI |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument      GRAVITY |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	     2018-08-28 |\ # "imdateobs", [YYYY-MM-DD] ##added this
