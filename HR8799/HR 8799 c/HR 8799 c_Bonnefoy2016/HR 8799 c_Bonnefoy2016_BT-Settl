@@ -47,6 +47,6 @@ immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes                  Temperature and radius values using chi squared metric |\ # "imnotes"
+imnotes                  Planet temperature and radius taken from chi squared solution |\ # "imnotes"
 #
 cntr                  TBD |  # counter
