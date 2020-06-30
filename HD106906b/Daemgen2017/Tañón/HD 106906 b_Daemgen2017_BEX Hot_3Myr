@@ -28,7 +28,7 @@ imifu 			            1 |\ # "imifu", IFU used (1=yes, 0=no)
 #
 # Astrometry Columns
 #
-ns			                1 |\ # "ns", number of stars constituting the host system
+ns			                2 |\ # "ns", number of stars constituting the host system
 ra                    TBD |\ # RA [decimal]
 dec                   TBD |\ # Dec [decimal]
 glon                  TBD |\ # "l" [decimal]
@@ -43,7 +43,7 @@ image		               13 | imageerr1	           2 | imageerr2	           -2 | im
 #
 # Model Columns
 #
-implstype		    L1.5± 1.0 |\ # "implstype", planet spectral type
+implstype		     L1.5±1.0 |\ # "implstype", planet spectral type
 implmass             12.6 | implmasserr1        1.3 | implmasserr2       −0.9 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 impltemp             1820 | impltemperr1        240 | impltemperr2       -240 | impltemplim      0 |\ # "impltemp", planet temp [K]
 immodel		      BEX Hot (Mordasini et al. 2012) |\ # "immodel", description of model ##Reference that the model is drawn from.
@@ -51,6 +51,6 @@ immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes                  Planetary mass derived when assuming a planetary age of 10 +/-2 Myr |\ # "imnotes"
+imnotes                  Planetary mass assuming a formation timescale of 3 Myr |\ # "imnotes"
 #
 cntr                  TBD |  # counter
