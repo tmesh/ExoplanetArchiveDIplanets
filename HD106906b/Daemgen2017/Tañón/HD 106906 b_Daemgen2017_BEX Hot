@@ -51,6 +51,6 @@ immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes                  Planetary mass assuming a formation timescale of 3 Myr |\ # "imnotes"
+imnotes                   |\ # "imnotes"
 #
 cntr                  TBD |  # counter
