@@ -1,0 +1,56 @@
+# USER:            tanon
+# DESCRIPTION:     Direct Imaging Table Update
+# FILENAME:        bet Pic b_Nielsen2014_2009-12-03.dat
+# DATE:            2020-05-20
+#                                    
+# Addition of direct imaging values
+#                                    
+objectid                    TBD   |\ # objectID for planet
+imreflink     2014ApJ...794..158N |\ # "imreflink, ADS bibcode
+imrefid			                TBD   |\ # refid for paper
+#
+# Default Columns
+#
+plntname               bet Pic b |\ # planet name
+ra_str               05:47:17.08 |\ # RA [sexagesimal]
+dec_str              -51:03:59.4 |\ # Dec [sexagesimal]
+#
+# Imaging Columns
+#
+imangsep            0.323 | imangseperr1     0.010 | imangseperr2       0.010 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imsep                 9.1 | imseperr1          5.3 | imseperr2           −0.5 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+impa                209.3 | impaerr1           1.8 | impaerr2            -1.8 | impalim          0 |\  # "impa", star-planet position angle [deg] 
+imdist              19.44 | imdisterr1        null | imdisterr2          null | imdistlim        0 |\  # "imdist", distance to star [pc]
+imtelescope	 Gemini:South |\ # "imtelescope", Telescope used in observations ##added this
+iminstrument         NICI |\ # "iminstrument", Instrument used in observations ##added this
+imdateobs	     2009-12-03 |\ # "imdateobs", [YYYY-MM-DD] ##added this
+imcluster	        bet Pic |\ # "imcluster", name of associated cluster
+imdisk 		              1 |\ # "imdisk", circumstellar disk detected (1=yes, 0=no)
+imcorona		            0 |\ # "imcorona", Coronagraph used (1=yes, 0=no)
+imifu 			            1 |\ # "imifu", IFU used (1=yes, 0=no)
+#
+# Astrometry Columns
+#
+ns			                1 |\ # "ns", number of stars constituting the host system
+ra                    TBD |\ # RA [decimal]
+dec                   TBD |\ # Dec [decimal]
+glon                  TBD |\ # "l" [decimal]
+glat                  TBD |\ # "b" [decimal]
+#
+# Photometry Columns
+#
+#
+# Stellar Parameter Columns
+#
+imstype			           A6 |\ # "imstype", stellar host spectral type
+immass               1.76 | immasserr1        0.18 | immasserr2         −0.17 | immasslim        0 |\ # "immass", stellar host [solar mass]
+#
+# Model Columns
+#
+immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
+#
+# Internal Counter
+#
+imnotes             CH4S (4%) filter used |\ # "imnotes"
+#
+cntr                  TBD |  # counter
