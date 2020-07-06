@@ -51,6 +51,6 @@ immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes             CH4S (4%) filter used |\ # "imnotes"
+imnotes             CH4S filter used |\ # "imnotes"
 #
 cntr                  TBD |  # counter
