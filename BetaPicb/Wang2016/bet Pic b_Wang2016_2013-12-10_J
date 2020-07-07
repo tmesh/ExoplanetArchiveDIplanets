@@ -17,7 +17,7 @@ dec_str              -51:03:59.4 |\ # Dec [sexagesimal]
 #
 # Imaging Columns   
 #
-imangsep           0.4266 | imangseperr1     0.011 | imangseperr2      -0.011 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
+imangsep           0.4266 | imangseperr1    0.0011 | imangseperr2     -0.0011 | imangseplim      0 |\  # "imangsep", star-planet angular separation [arcsec]
 impa                212.2 | impaerr1           0.2 | impaerr2            -0.2 | impalim          0 |\  # "impa", star-planet position angle [deg] 
 imdist               19.3 | imdisterr1        null | imdisterr2          null | imdistlim        0 |\  # "imdist", distance to star [pc]
 imtelescope	 Gemini:South |\ # "imtelescope", Telescope used in observations ##added this
