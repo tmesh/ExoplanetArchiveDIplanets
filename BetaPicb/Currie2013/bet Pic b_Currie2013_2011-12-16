@@ -47,7 +47,7 @@ implmass                7 | implmasserr1          4 | implmasserr2         −3 
 impltemp             1600 | impltemperr1       null | impltemperr2       null | impltemplim      0 |\ # "impltemp", planet temp [K]
 implradius           1.65 | implradiuserr1     0.06 | implradiuserr2    -0.06 | implradiuslim    0 |\ # "implradius", planet radius [Jupiter radii]
 immodel		          	    |\ # "immodel", description of model ##Reference that the model is drawn from.
-immodeldef		          0 |\ # "immodeldef" (1=yes, 0=no)
+immodeldef	A4 (fixed radius) |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
