@@ -36,7 +36,7 @@ glat                  TBD |\ # "b" [decimal]
 # Photometry Columns
 #
 implnjmag           14.11 | implnjmagerr          0.21 | implnjmaglim           0 |\ # "implnjmag", planet magnitude J-band [mag]
-p#
+#
 # Stellar Parameter Columns
 #
 image		               12 | imageerr1	           8 | imageerr2	           −4 | imagelim	       0 |\ # "image", stellar age [My]
