@@ -33,9 +33,10 @@ dec                   TBD |\ # Dec [decimal]
 glon                  TBD |\ # "l" [decimal]
 glat                  TBD |\ # "b" [decimal]
 #
-# Photometry Columns
+# Photometry Columns 
 #
 imhmag              13.25 | imhmagerr         0.18 | imhmaglim              0 |\ # "imhmag", stellar magnitude H-band [mag]
+imkmag              12.47 | imkmagerr         0.13 | imkmaglim              0 |\ # "imkmag", stellar magnitude K-band [mag]
 #
 # Stellar Parameter Columns
 #
