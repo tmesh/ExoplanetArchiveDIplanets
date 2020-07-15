@@ -52,6 +52,6 @@ immodeldef	A4 (fixed radius) |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
-imnotes                   |\ # "imnotes"
+imnotes                  Ks filter used |\ # "imnotes"
 #
 cntr                  TBD |  # counter
