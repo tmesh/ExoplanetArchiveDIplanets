@@ -19,6 +19,7 @@ dec_str              +21:08:03.3 |\ # Dec [sexagesimal]
 #
 imdeltjmag          14.39 | imdeltjmagerr	    0.09 | imdeltjmaglim                               0 |\			# "imdeltjmag", planet-host magnitude difference [mag]
 imsep               67.96 | imseperr1         1.85 | imseperr2           1.85 | imseplim         0 |\  # "imsep", projected star-planet separation [AU]
+imdist               39.4 | imdisterr1         1.1 | imdisterr2          -1.1 | imdistlim        0 |\  # "imdist", distance to star [pc]
 imtelescope	               VLT:Melipal |\ # "imtelescope", Telescope used in observations ##added this
 iminstrument             IRDIS, SPHERE |\ # "iminstrument", Instrument used in observations ##added this
 imdateobs	                  2014-08-14 |\ # "imdateobs", [YYYY-MM-DD] ##added this
