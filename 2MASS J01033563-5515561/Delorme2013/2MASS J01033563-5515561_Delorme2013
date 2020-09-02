@@ -57,7 +57,7 @@ image		          30 | imageerr1	        null | imageerr2	       null | imagelim	
 #
 implmass           13 | implmasserr1         1 | implmasserr2        -1 | implmasslim      0 |\ # "implmass", planet mass [Jupiter mass]
 immodel		          BT-Settl (Allard et al. 2012; Baraffe et al. 2003) |\ # "immodel", description of model ##Reference that the model is drawn from.
-immodeldef		      0 |\ # "immodeldef" (1=yes, 0=no)
+immodeldef		      1 |\ # "immodeldef" (1=yes, 0=no)
 #
 # Internal Counter
 #
